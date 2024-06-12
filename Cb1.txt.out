@@ -1,0 +1,2315 @@
+Document: ID=Cb1.txt (24 sentences, 601 tokens)
+
+Sentence #1 (10 tokens):
+Cynthia Breazeal is an American robotics scientist and entrepreneur.
+
+Tokens:
+[Text=Cynthia CharacterOffsetBegin=0 CharacterOffsetEnd=7 PartOfSpeech=NNP Lemma=Cynthia NamedEntityTag=PERSON]
+[Text=Breazeal CharacterOffsetBegin=8 CharacterOffsetEnd=16 PartOfSpeech=NNP Lemma=Breazeal NamedEntityTag=PERSON]
+[Text=is CharacterOffsetBegin=17 CharacterOffsetEnd=19 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=an CharacterOffsetBegin=20 CharacterOffsetEnd=22 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=American CharacterOffsetBegin=23 CharacterOffsetEnd=31 PartOfSpeech=JJ Lemma=American NamedEntityTag=NATIONALITY]
+[Text=robotics CharacterOffsetBegin=32 CharacterOffsetEnd=40 PartOfSpeech=NNS Lemma=robotic NamedEntityTag=O]
+[Text=scientist CharacterOffsetBegin=41 CharacterOffsetEnd=50 PartOfSpeech=NN Lemma=scientist NamedEntityTag=TITLE]
+[Text=and CharacterOffsetBegin=51 CharacterOffsetEnd=54 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=entrepreneur CharacterOffsetBegin=55 CharacterOffsetEnd=67 PartOfSpeech=NN Lemma=entrepreneur NamedEntityTag=TITLE]
+[Text=. CharacterOffsetBegin=67 CharacterOffsetEnd=68 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+
+Constituency parse: 
+(ROOT
+  (S
+    (NP (NNP Cynthia) (NNP Breazeal))
+    (VP (VBZ is)
+      (NP
+        (NP (DT an) (JJ American) (NNS robotics) (NN scientist))
+        (CC and)
+        (NP (NN entrepreneur))))
+    (. .)))
+
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, scientist-7)
+compound(Breazeal-2, Cynthia-1)
+nsubj(scientist-7, Breazeal-2)
+cop(scientist-7, is-3)
+det(scientist-7, an-4)
+amod(scientist-7, American-5)
+compound(scientist-7, robotics-6)
+cc(entrepreneur-9, and-8)
+conj:and(scientist-7, entrepreneur-9)
+punct(scientist-7, .-10)
+
+Extracted the following NER entity mentions:
+Cynthia Breazeal	PERSON	PERSON:0.98741968132938
+American	NATIONALITY	MISC:0.999975498114779
+scientist	TITLE	-
+entrepreneur	TITLE	-
+
+Extracted the following KBP triples:
+1.0	Cynthia Breazeal	per:origin	American
+1.0	Cynthia Breazeal	per:title	scientist
+0.7197787550614633	Cynthia Breazeal	per:title	entrepreneur
+
+Sentence #2 (26 tokens):
+Cynthia Breazeal is a former chief scientist and chief experience officer of Jibo, a company she co-founded in 2012 that developed personal assistant robots.
+
+Tokens:
+[Text=Cynthia CharacterOffsetBegin=69 CharacterOffsetEnd=76 PartOfSpeech=NNP Lemma=Cynthia NamedEntityTag=PERSON]
+[Text=Breazeal CharacterOffsetBegin=77 CharacterOffsetEnd=85 PartOfSpeech=NNP Lemma=Breazeal NamedEntityTag=PERSON]
+[Text=is CharacterOffsetBegin=86 CharacterOffsetEnd=88 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=89 CharacterOffsetEnd=90 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=former CharacterOffsetBegin=91 CharacterOffsetEnd=97 PartOfSpeech=JJ Lemma=former NamedEntityTag=O]
+[Text=chief CharacterOffsetBegin=98 CharacterOffsetEnd=103 PartOfSpeech=JJ Lemma=chief NamedEntityTag=O]
+[Text=scientist CharacterOffsetBegin=104 CharacterOffsetEnd=113 PartOfSpeech=NN Lemma=scientist NamedEntityTag=TITLE]
+[Text=and CharacterOffsetBegin=114 CharacterOffsetEnd=117 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=chief CharacterOffsetBegin=118 CharacterOffsetEnd=123 PartOfSpeech=JJ Lemma=chief NamedEntityTag=O]
+[Text=experience CharacterOffsetBegin=124 CharacterOffsetEnd=134 PartOfSpeech=NN Lemma=experience NamedEntityTag=O]
+[Text=officer CharacterOffsetBegin=135 CharacterOffsetEnd=142 PartOfSpeech=NN Lemma=officer NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=143 CharacterOffsetEnd=145 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=Jibo CharacterOffsetBegin=146 CharacterOffsetEnd=150 PartOfSpeech=NNP Lemma=Jibo NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=150 CharacterOffsetEnd=151 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=152 CharacterOffsetEnd=153 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=company CharacterOffsetBegin=154 CharacterOffsetEnd=161 PartOfSpeech=NN Lemma=company NamedEntityTag=O]
+[Text=she CharacterOffsetBegin=162 CharacterOffsetEnd=165 PartOfSpeech=PRP Lemma=she NamedEntityTag=O]
+[Text=co-founded CharacterOffsetBegin=166 CharacterOffsetEnd=176 PartOfSpeech=VBD Lemma=co-found NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=177 CharacterOffsetEnd=179 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=2012 CharacterOffsetBegin=180 CharacterOffsetEnd=184 PartOfSpeech=CD Lemma=2012 NamedEntityTag=DATE NormalizedNamedEntityTag=2012 Timex=<TIMEX3 tid="t1" type="DATE" value="2012">2012</TIMEX3>]
+[Text=that CharacterOffsetBegin=185 CharacterOffsetEnd=189 PartOfSpeech=WDT Lemma=that NamedEntityTag=O]
+[Text=developed CharacterOffsetBegin=190 CharacterOffsetEnd=199 PartOfSpeech=VBD Lemma=develop NamedEntityTag=O]
+[Text=personal CharacterOffsetBegin=200 CharacterOffsetEnd=208 PartOfSpeech=JJ Lemma=personal NamedEntityTag=O]
+[Text=assistant CharacterOffsetBegin=209 CharacterOffsetEnd=218 PartOfSpeech=NN Lemma=assistant NamedEntityTag=TITLE]
+[Text=robots CharacterOffsetBegin=219 CharacterOffsetEnd=225 PartOfSpeech=NNS Lemma=robot NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=225 CharacterOffsetEnd=226 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+
+Constituency parse: 
+(ROOT
+  (S
+    (NP (NNP Cynthia) (NNP Breazeal))
+    (VP (VBZ is)
+      (NP
+        (NP
+          (NP (DT a)
+            (NML
+              (NML (JJ former) (JJ chief) (NN scientist))
+              (CC and)
+              (NML (JJ chief) (NN experience)))
+            (NN officer))
+          (PP (IN of)
+            (NP (NNP Jibo))))
+        (, ,)
+        (NP
+          (NP (DT a) (NN company))
+          (SBAR
+            (S
+              (NP (PRP she))
+              (VP (VBD co-founded)
+                (PP (IN in)
+                  (NP
+                    (NP (CD 2012))
+                    (SBAR
+                      (WHNP (WDT that))
+                      (S
+                        (VP (VBD developed)
+                          (NP (JJ personal) (NN assistant) (NNS robots)))))))))))))
+    (. .)))
+
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, officer-11)
+compound(Breazeal-2, Cynthia-1)
+nsubj(officer-11, Breazeal-2)
+cop(officer-11, is-3)
+det(officer-11, a-4)
+amod(scientist-7, former-5)
+amod(scientist-7, chief-6)
+compound(officer-11, scientist-7)
+cc(experience-10, and-8)
+amod(experience-10, chief-9)
+conj:and(scientist-7, experience-10)
+compound(officer-11, experience-10)
+case(Jibo-13, of-12)
+nmod:of(officer-11, Jibo-13)
+punct(officer-11, ,-14)
+det(company-16, a-15)
+appos(officer-11, company-16)
+nsubj(developed-22, company-16)
+nsubj(co-founded-18, she-17)
+acl:relcl(company-16, co-founded-18)
+case(2012-20, in-19)
+obl:in(co-founded-18, 2012-20)
+nsubj(developed-22, 2012-20)
+ref(company-16, that-21)
+ref(2012-20, that-21)
+acl:relcl(2012-20, developed-22)
+amod(robots-25, personal-23)
+compound(robots-25, assistant-24)
+obj(developed-22, robots-25)
+punct(officer-11, .-26)
+
+Extracted the following NER entity mentions:
+Cynthia Breazeal	PERSON	PERSON:0.9981504533176918
+scientist	TITLE	-
+Jibo	PERSON	PERSON:0.5473625804173751
+2012	DATE	DATE:0.9895549235901889
+assistant	TITLE	-
+she	PERSON	-
+
+Sentence #3 (27 tokens):
+Currently, Cynthia Breazeal is a professor of media arts and sciences at MIT and the director of the Personal Robots group at the Media Lab.
+
+Tokens:
+[Text=Currently CharacterOffsetBegin=227 CharacterOffsetEnd=236 PartOfSpeech=RB Lemma=currently NamedEntityTag=DATE NormalizedNamedEntityTag=PRESENT_REF Timex=<TIMEX3 tid="t2" type="DATE" value="PRESENT_REF">Currently</TIMEX3>]
+[Text=, CharacterOffsetBegin=236 CharacterOffsetEnd=237 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=Cynthia CharacterOffsetBegin=238 CharacterOffsetEnd=245 PartOfSpeech=NNP Lemma=Cynthia NamedEntityTag=PERSON]
+[Text=Breazeal CharacterOffsetBegin=246 CharacterOffsetEnd=254 PartOfSpeech=NNP Lemma=Breazeal NamedEntityTag=PERSON]
+[Text=is CharacterOffsetBegin=255 CharacterOffsetEnd=257 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=258 CharacterOffsetEnd=259 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=professor CharacterOffsetBegin=260 CharacterOffsetEnd=269 PartOfSpeech=NN Lemma=professor NamedEntityTag=TITLE]
+[Text=of CharacterOffsetBegin=270 CharacterOffsetEnd=272 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=media CharacterOffsetBegin=273 CharacterOffsetEnd=278 PartOfSpeech=NNS Lemma=media NamedEntityTag=O]
+[Text=arts CharacterOffsetBegin=279 CharacterOffsetEnd=283 PartOfSpeech=NNS Lemma=art NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=284 CharacterOffsetEnd=287 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=sciences CharacterOffsetBegin=288 CharacterOffsetEnd=296 PartOfSpeech=NNS Lemma=science NamedEntityTag=O]
+[Text=at CharacterOffsetBegin=297 CharacterOffsetEnd=299 PartOfSpeech=IN Lemma=at NamedEntityTag=O]
+[Text=MIT CharacterOffsetBegin=300 CharacterOffsetEnd=303 PartOfSpeech=NNP Lemma=MIT NamedEntityTag=ORGANIZATION]
+[Text=and CharacterOffsetBegin=304 CharacterOffsetEnd=307 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=308 CharacterOffsetEnd=311 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=director CharacterOffsetBegin=312 CharacterOffsetEnd=320 PartOfSpeech=NN Lemma=director NamedEntityTag=TITLE]
+[Text=of CharacterOffsetBegin=321 CharacterOffsetEnd=323 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=324 CharacterOffsetEnd=327 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Personal CharacterOffsetBegin=328 CharacterOffsetEnd=336 PartOfSpeech=NNP Lemma=Personal NamedEntityTag=O]
+[Text=Robots CharacterOffsetBegin=337 CharacterOffsetEnd=343 PartOfSpeech=NNP Lemma=Robots NamedEntityTag=O]
+[Text=group CharacterOffsetBegin=344 CharacterOffsetEnd=349 PartOfSpeech=NN Lemma=group NamedEntityTag=O]
+[Text=at CharacterOffsetBegin=350 CharacterOffsetEnd=352 PartOfSpeech=IN Lemma=at NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=353 CharacterOffsetEnd=356 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Media CharacterOffsetBegin=357 CharacterOffsetEnd=362 PartOfSpeech=NN Lemma=media NamedEntityTag=ORGANIZATION]
+[Text=Lab CharacterOffsetBegin=363 CharacterOffsetEnd=366 PartOfSpeech=NN Lemma=lab NamedEntityTag=ORGANIZATION]
+[Text=. CharacterOffsetBegin=366 CharacterOffsetEnd=367 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+
+Constituency parse: 
+(ROOT
+  (S
+    (ADVP (RB Currently))
+    (, ,)
+    (NP (NNP Cynthia) (NNP Breazeal))
+    (VP (VBZ is)
+      (NP
+        (NP (DT a) (NN professor))
+        (PP (IN of)
+          (NP
+            (NP
+              (NP (NNS media)
+                (NML (NNS arts)
+                  (CC and)
+                  (NNS sciences)))
+              (PP (IN at)
+                (NP (NNP MIT))))
+            (CC and)
+            (NP
+              (NP (DT the) (NN director))
+              (PP (IN of)
+                (NP
+                  (NP (DT the)
+                    (NML (NNP Personal) (NNP Robots))
+                    (NN group))
+                  (PP (IN at)
+                    (NP (DT the) (NN Media) (NN Lab))))))))))
+    (. .)))
+
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, professor-7)
+advmod(professor-7, Currently-1)
+punct(professor-7, ,-2)
+compound(Breazeal-4, Cynthia-3)
+nsubj(professor-7, Breazeal-4)
+cop(professor-7, is-5)
+det(professor-7, a-6)
+case(arts-10, of-8)
+dep(arts-10, media-9)
+nmod:of(professor-7, arts-10)
+cc(sciences-12, and-11)
+nmod:of(professor-7, sciences-12)
+conj:and(arts-10, sciences-12)
+case(MIT-14, at-13)
+nmod:at(arts-10, MIT-14)
+cc(director-17, and-15)
+det(director-17, the-16)
+nmod:of(professor-7, director-17)
+conj:and(arts-10, director-17)
+case(group-22, of-18)
+det(group-22, the-19)
+compound(Robots-21, Personal-20)
+compound(group-22, Robots-21)
+nmod:of(director-17, group-22)
+case(Lab-26, at-23)
+det(Lab-26, the-24)
+compound(Lab-26, Media-25)
+nmod:at(group-22, Lab-26)
+punct(professor-7, .-27)
+
+Extracted the following NER entity mentions:
+Currently	DATE	DATE:-1.0
+Cynthia Breazeal	PERSON	PERSON:0.9996522677372014
+professor	TITLE	-
+MIT	ORGANIZATION	ORGANIZATION:0.8816875685940139
+director	TITLE	-
+Media Lab	ORGANIZATION	ORGANIZATION:0.5599156077923141
+
+Extracted the following KBP triples:
+0.8297659523606615	Cynthia Breazeal	per:employee_or_member_of	Media Lab
+0.7537716996246874	Cynthia Breazeal	per:employee_or_member_of	Massachusetts Institute of Technology
+0.7699133104348194	Cynthia Breazeal	per:title	director
+1.0	Cynthia Breazeal	per:title	professor
+
+Sentence #4 (34 tokens):
+Cynthia Breazeal most recent work has focused on the theme of living everyday life in the presence of AI, and gradually gaining insight into the long-term impacts of social robots.
+
+Tokens:
+[Text=Cynthia CharacterOffsetBegin=369 CharacterOffsetEnd=376 PartOfSpeech=NNP Lemma=Cynthia NamedEntityTag=PERSON]
+[Text=Breazeal CharacterOffsetBegin=377 CharacterOffsetEnd=385 PartOfSpeech=NNP Lemma=Breazeal NamedEntityTag=PERSON]
+[Text=most CharacterOffsetBegin=386 CharacterOffsetEnd=390 PartOfSpeech=RBS Lemma=most NamedEntityTag=O]
+[Text=recent CharacterOffsetBegin=391 CharacterOffsetEnd=397 PartOfSpeech=JJ Lemma=recent NamedEntityTag=O]
+[Text=work CharacterOffsetBegin=398 CharacterOffsetEnd=402 PartOfSpeech=NN Lemma=work NamedEntityTag=O]
+[Text=has CharacterOffsetBegin=403 CharacterOffsetEnd=406 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O]
+[Text=focused CharacterOffsetBegin=407 CharacterOffsetEnd=414 PartOfSpeech=VBN Lemma=focus NamedEntityTag=O]
+[Text=on CharacterOffsetBegin=415 CharacterOffsetEnd=417 PartOfSpeech=IN Lemma=on NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=418 CharacterOffsetEnd=421 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=theme CharacterOffsetBegin=422 CharacterOffsetEnd=427 PartOfSpeech=NN Lemma=theme NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=428 CharacterOffsetEnd=430 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=living CharacterOffsetBegin=431 CharacterOffsetEnd=437 PartOfSpeech=VBG Lemma=live NamedEntityTag=O]
+[Text=everyday CharacterOffsetBegin=438 CharacterOffsetEnd=446 PartOfSpeech=JJ Lemma=everyday NamedEntityTag=O]
+[Text=life CharacterOffsetBegin=447 CharacterOffsetEnd=451 PartOfSpeech=NN Lemma=life NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=452 CharacterOffsetEnd=454 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=455 CharacterOffsetEnd=458 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=presence CharacterOffsetBegin=459 CharacterOffsetEnd=467 PartOfSpeech=NN Lemma=presence NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=468 CharacterOffsetEnd=470 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=AI CharacterOffsetBegin=471 CharacterOffsetEnd=473 PartOfSpeech=NN Lemma=ai NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=473 CharacterOffsetEnd=474 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=475 CharacterOffsetEnd=478 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=gradually CharacterOffsetBegin=479 CharacterOffsetEnd=488 PartOfSpeech=RB Lemma=gradually NamedEntityTag=O]
+[Text=gaining CharacterOffsetBegin=489 CharacterOffsetEnd=496 PartOfSpeech=VBG Lemma=gain NamedEntityTag=O]
+[Text=insight CharacterOffsetBegin=497 CharacterOffsetEnd=504 PartOfSpeech=NN Lemma=insight NamedEntityTag=O]
+[Text=into CharacterOffsetBegin=505 CharacterOffsetEnd=509 PartOfSpeech=IN Lemma=into NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=510 CharacterOffsetEnd=513 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=long CharacterOffsetBegin=514 CharacterOffsetEnd=518 PartOfSpeech=JJ Lemma=long NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=518 CharacterOffsetEnd=519 PartOfSpeech=HYPH Lemma=- NamedEntityTag=O]
+[Text=term CharacterOffsetBegin=519 CharacterOffsetEnd=523 PartOfSpeech=NN Lemma=term NamedEntityTag=O]
+[Text=impacts CharacterOffsetBegin=524 CharacterOffsetEnd=531 PartOfSpeech=NNS Lemma=impact NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=532 CharacterOffsetEnd=534 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=social CharacterOffsetBegin=535 CharacterOffsetEnd=541 PartOfSpeech=JJ Lemma=social NamedEntityTag=O]
+[Text=robots CharacterOffsetBegin=542 CharacterOffsetEnd=548 PartOfSpeech=NNS Lemma=robot NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=548 CharacterOffsetEnd=549 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+
+Constituency parse: 
+(ROOT
+  (S
+    (NP
+      (NML (NNP Cynthia) (NNP Breazeal))
+      (ADJP (RBS most) (JJ recent))
+      (NN work))
+    (VP (VBZ has)
+      (VP (VBN focused)
+        (PP (IN on)
+          (NP
+            (NP (DT the) (NN theme))
+            (PP (IN of)
+              (S
+                (VP
+                  (VP (VBG living)
+                    (NP (JJ everyday) (NN life))
+                    (PP (IN in)
+                      (NP
+                        (NP (DT the) (NN presence))
+                        (PP (IN of)
+                          (NP (NN AI))))))
+                  (, ,)
+                  (CC and)
+                  (ADVP (RB gradually))
+                  (VP (VBG gaining)
+                    (NP (NN insight))
+                    (PP (IN into)
+                      (NP
+                        (NP (DT the)
+                          (NML (JJ long) (HYPH -) (NN term))
+                          (NNS impacts))
+                        (PP (IN of)
+                          (NP (JJ social) (NNS robots)))))))))))))
+    (. .)))
+
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, focused-7)
+compound(Breazeal-2, Cynthia-1)
+compound(work-5, Breazeal-2)
+advmod(recent-4, most-3)
+amod(work-5, recent-4)
+nsubj(focused-7, work-5)
+aux(focused-7, has-6)
+case(theme-10, on-8)
+det(theme-10, the-9)
+obl:on(focused-7, theme-10)
+mark(living-12, of-11)
+acl:of(theme-10, living-12)
+amod(life-14, everyday-13)
+obj(living-12, life-14)
+case(presence-17, in-15)
+det(presence-17, the-16)
+obl:in(living-12, presence-17)
+case(AI-19, of-18)
+nmod:of(presence-17, AI-19)
+punct(living-12, ,-20)
+cc(gaining-23, and-21)
+advmod(gaining-23, gradually-22)
+acl:of(theme-10, gaining-23)
+conj:and(living-12, gaining-23)
+obj(gaining-23, insight-24)
+case(impacts-30, into-25)
+det(impacts-30, the-26)
+amod(term-29, long-27)
+punct(term-29, --28)
+compound(impacts-30, term-29)
+obl:into(gaining-23, impacts-30)
+case(robots-33, of-31)
+amod(robots-33, social-32)
+nmod:of(impacts-30, robots-33)
+punct(focused-7, .-34)
+
+Extracted the following NER entity mentions:
+Cynthia Breazeal	PERSON	PERSON:0.926751003110796
+
+Sentence #5 (23 tokens):
+Cynthia Breazeal is the daughter of two scientists, Cynthia Breazeal had early access to the fields of computer science and engineering.
+
+Tokens:
+[Text=Cynthia CharacterOffsetBegin=553 CharacterOffsetEnd=560 PartOfSpeech=NNP Lemma=Cynthia NamedEntityTag=PERSON]
+[Text=Breazeal CharacterOffsetBegin=561 CharacterOffsetEnd=569 PartOfSpeech=NNP Lemma=Breazeal NamedEntityTag=PERSON]
+[Text=is CharacterOffsetBegin=570 CharacterOffsetEnd=572 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=573 CharacterOffsetEnd=576 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=daughter CharacterOffsetBegin=577 CharacterOffsetEnd=585 PartOfSpeech=NN Lemma=daughter NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=586 CharacterOffsetEnd=588 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=two CharacterOffsetBegin=589 CharacterOffsetEnd=592 PartOfSpeech=CD Lemma=two NamedEntityTag=NUMBER NormalizedNamedEntityTag=2.0]
+[Text=scientists CharacterOffsetBegin=593 CharacterOffsetEnd=603 PartOfSpeech=NNS Lemma=scientist NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=603 CharacterOffsetEnd=604 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=Cynthia CharacterOffsetBegin=605 CharacterOffsetEnd=612 PartOfSpeech=NNP Lemma=Cynthia NamedEntityTag=PERSON]
+[Text=Breazeal CharacterOffsetBegin=613 CharacterOffsetEnd=621 PartOfSpeech=NNP Lemma=Breazeal NamedEntityTag=PERSON]
+[Text=had CharacterOffsetBegin=622 CharacterOffsetEnd=625 PartOfSpeech=VBD Lemma=have NamedEntityTag=O]
+[Text=early CharacterOffsetBegin=626 CharacterOffsetEnd=631 PartOfSpeech=JJ Lemma=early NamedEntityTag=O]
+[Text=access CharacterOffsetBegin=632 CharacterOffsetEnd=638 PartOfSpeech=NN Lemma=access NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=639 CharacterOffsetEnd=641 PartOfSpeech=IN Lemma=to NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=642 CharacterOffsetEnd=645 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=fields CharacterOffsetBegin=646 CharacterOffsetEnd=652 PartOfSpeech=NNS Lemma=field NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=653 CharacterOffsetEnd=655 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=computer CharacterOffsetBegin=656 CharacterOffsetEnd=664 PartOfSpeech=NN Lemma=computer NamedEntityTag=O]
+[Text=science CharacterOffsetBegin=665 CharacterOffsetEnd=672 PartOfSpeech=NN Lemma=science NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=673 CharacterOffsetEnd=676 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=engineering CharacterOffsetBegin=677 CharacterOffsetEnd=688 PartOfSpeech=NN Lemma=engineering NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=688 CharacterOffsetEnd=689 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+
+Constituency parse: 
+(ROOT
+  (S
+    (S
+      (NP (NNP Cynthia) (NNP Breazeal))
+      (VP (VBZ is)
+        (NP
+          (NP (DT the) (NN daughter))
+          (PP (IN of)
+            (NP (CD two) (NNS scientists))))))
+    (, ,)
+    (NP (NNP Cynthia) (NNP Breazeal))
+    (VP (VBD had)
+      (NP (JJ early) (NN access))
+      (PP (IN to)
+        (NP
+          (NP (DT the) (NNS fields))
+          (PP (IN of)
+            (NP (NN computer)
+              (NML (NN science)
+                (CC and)
+                (NN engineering)))))))
+    (. .)))
+
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, had-12)
+compound(Breazeal-2, Cynthia-1)
+nsubj(daughter-5, Breazeal-2)
+cop(daughter-5, is-3)
+det(daughter-5, the-4)
+ccomp(had-12, daughter-5)
+case(scientists-8, of-6)
+nummod(scientists-8, two-7)
+nmod:of(daughter-5, scientists-8)
+punct(had-12, ,-9)
+compound(Breazeal-11, Cynthia-10)
+nsubj(had-12, Breazeal-11)
+amod(access-14, early-13)
+obj(had-12, access-14)
+case(fields-17, to-15)
+det(fields-17, the-16)
+obl:to(had-12, fields-17)
+case(science-20, of-18)
+dep(science-20, computer-19)
+nmod:of(fields-17, science-20)
+cc(engineering-22, and-21)
+nmod:of(fields-17, engineering-22)
+conj:and(science-20, engineering-22)
+punct(had-12, .-23)
+
+Extracted the following NER entity mentions:
+Cynthia Breazeal	PERSON	PERSON:0.9918218065349664
+two	NUMBER	NUMBER:-1.0
+Cynthia Breazeal	PERSON	PERSON:0.9993832408307357
+
+Sentence #6 (32 tokens):
+Under the guidance of Cynthia Breazeal  parents, Cynthia Breazeal earned a Bachelor of Science in electrical and computer engineering from the University of California, Santa Barbara, in 1989.
+
+Tokens:
+[Text=Under CharacterOffsetBegin=690 CharacterOffsetEnd=695 PartOfSpeech=IN Lemma=under NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=696 CharacterOffsetEnd=699 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=guidance CharacterOffsetBegin=700 CharacterOffsetEnd=708 PartOfSpeech=NN Lemma=guidance NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=709 CharacterOffsetEnd=711 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=Cynthia CharacterOffsetBegin=712 CharacterOffsetEnd=719 PartOfSpeech=NNP Lemma=Cynthia NamedEntityTag=PERSON]
+[Text=Breazeal CharacterOffsetBegin=720 CharacterOffsetEnd=728 PartOfSpeech=NNP Lemma=Breazeal NamedEntityTag=PERSON]
+[Text=parents CharacterOffsetBegin=730 CharacterOffsetEnd=737 PartOfSpeech=NNS Lemma=parent NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=737 CharacterOffsetEnd=738 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=Cynthia CharacterOffsetBegin=739 CharacterOffsetEnd=746 PartOfSpeech=NNP Lemma=Cynthia NamedEntityTag=PERSON]
+[Text=Breazeal CharacterOffsetBegin=747 CharacterOffsetEnd=755 PartOfSpeech=NNP Lemma=Breazeal NamedEntityTag=PERSON]
+[Text=earned CharacterOffsetBegin=756 CharacterOffsetEnd=762 PartOfSpeech=VBD Lemma=earn NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=763 CharacterOffsetEnd=764 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=Bachelor CharacterOffsetBegin=765 CharacterOffsetEnd=773 PartOfSpeech=NN Lemma=bachelor NamedEntityTag=TITLE]
+[Text=of CharacterOffsetBegin=774 CharacterOffsetEnd=776 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=Science CharacterOffsetBegin=777 CharacterOffsetEnd=784 PartOfSpeech=NNP Lemma=Science NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=785 CharacterOffsetEnd=787 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=electrical CharacterOffsetBegin=788 CharacterOffsetEnd=798 PartOfSpeech=JJ Lemma=electrical NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=799 CharacterOffsetEnd=802 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=computer CharacterOffsetBegin=803 CharacterOffsetEnd=811 PartOfSpeech=NN Lemma=computer NamedEntityTag=O]
+[Text=engineering CharacterOffsetBegin=812 CharacterOffsetEnd=823 PartOfSpeech=NN Lemma=engineering NamedEntityTag=O]
+[Text=from CharacterOffsetBegin=824 CharacterOffsetEnd=828 PartOfSpeech=IN Lemma=from NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=829 CharacterOffsetEnd=832 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=University CharacterOffsetBegin=833 CharacterOffsetEnd=843 PartOfSpeech=NNP Lemma=University NamedEntityTag=ORGANIZATION]
+[Text=of CharacterOffsetBegin=844 CharacterOffsetEnd=846 PartOfSpeech=IN Lemma=of NamedEntityTag=ORGANIZATION]
+[Text=California CharacterOffsetBegin=847 CharacterOffsetEnd=857 PartOfSpeech=NNP Lemma=California NamedEntityTag=ORGANIZATION]
+[Text=, CharacterOffsetBegin=857 CharacterOffsetEnd=858 PartOfSpeech=, Lemma=, NamedEntityTag=ORGANIZATION]
+[Text=Santa CharacterOffsetBegin=859 CharacterOffsetEnd=864 PartOfSpeech=NNP Lemma=Santa NamedEntityTag=ORGANIZATION]
+[Text=Barbara CharacterOffsetBegin=865 CharacterOffsetEnd=872 PartOfSpeech=NNP Lemma=Barbara NamedEntityTag=ORGANIZATION]
+[Text=, CharacterOffsetBegin=872 CharacterOffsetEnd=873 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=874 CharacterOffsetEnd=876 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=1989 CharacterOffsetBegin=877 CharacterOffsetEnd=881 PartOfSpeech=CD Lemma=1989 NamedEntityTag=DATE NormalizedNamedEntityTag=1989 Timex=<TIMEX3 tid="t3" type="DATE" value="1989">1989</TIMEX3>]
+[Text=. CharacterOffsetBegin=881 CharacterOffsetEnd=882 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+
+Constituency parse: 
+(ROOT
+  (S
+    (PP (IN Under)
+      (NP
+        (NP (DT the) (NN guidance))
+        (PP (IN of)
+          (NP
+            (NML (NNP Cynthia) (NNP Breazeal))
+            (NNS parents)))))
+    (, ,)
+    (NP (NNP Cynthia) (NNP Breazeal))
+    (VP (VBD earned)
+      (NP
+        (NP (DT a) (NN Bachelor))
+        (PP (IN of)
+          (NP
+            (NP (NNP Science))
+            (PP (IN in)
+              (NP
+                (UCP (JJ electrical)
+                  (CC and)
+                  (NN computer))
+                (NN engineering))))))
+      (PP (IN from)
+        (NP
+          (NP (DT the) (NNP University))
+          (PP (IN of)
+            (NP
+              (NP (NNP California))
+              (, ,)
+              (NP (NNP Santa) (NNP Barbara))
+              (, ,)))))
+      (PP (IN in)
+        (NP (CD 1989))))
+    (. .)))
+
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, earned-11)
+case(guidance-3, Under-1)
+det(guidance-3, the-2)
+obl:under(earned-11, guidance-3)
+case(parents-7, of-4)
+compound(Breazeal-6, Cynthia-5)
+compound(parents-7, Breazeal-6)
+nmod:of(guidance-3, parents-7)
+punct(earned-11, ,-8)
+compound(Breazeal-10, Cynthia-9)
+nsubj(earned-11, Breazeal-10)
+det(Bachelor-13, a-12)
+obj(earned-11, Bachelor-13)
+case(Science-15, of-14)
+nmod:of(Bachelor-13, Science-15)
+case(engineering-20, in-16)
+amod(engineering-20, electrical-17)
+cc(computer-19, and-18)
+conj:and(electrical-17, computer-19)
+amod(engineering-20, computer-19)
+nmod:in(Science-15, engineering-20)
+case(University-23, from-21)
+det(University-23, the-22)
+obl:from(earned-11, University-23)
+case(California-25, of-24)
+nmod:of(University-23, California-25)
+punct(California-25, ,-26)
+compound(Barbara-28, Santa-27)
+appos(California-25, Barbara-28)
+punct(California-25, ,-29)
+case(1989-31, in-30)
+obl:in(earned-11, 1989-31)
+punct(earned-11, .-32)
+
+Extracted the following NER entity mentions:
+Cynthia Breazeal	PERSON	PERSON:0.9667739014429068
+Cynthia Breazeal	PERSON	PERSON:0.9971441920284018
+Bachelor	TITLE	-
+University of California, Santa Barbara	ORGANIZATION	ORGANIZATION:0.7110295096717689
+1989	DATE	DATE:0.9993459135315232
+
+Extracted the following KBP triples:
+1.0	Cynthia Breazeal	per:schools_attended	University of California , Santa Barbara
+0.7691642018054046	Cynthia Breazeal	per:title	Bachelor
+
+Sentence #7 (8 tokens):
+Cynthia Breazeal earned Mater Study in 1993.
+
+Tokens:
+[Text=Cynthia CharacterOffsetBegin=883 CharacterOffsetEnd=890 PartOfSpeech=NNP Lemma=Cynthia NamedEntityTag=PERSON]
+[Text=Breazeal CharacterOffsetBegin=891 CharacterOffsetEnd=899 PartOfSpeech=NNP Lemma=Breazeal NamedEntityTag=PERSON]
+[Text=earned CharacterOffsetBegin=900 CharacterOffsetEnd=906 PartOfSpeech=VBD Lemma=earn NamedEntityTag=O]
+[Text=Mater CharacterOffsetBegin=907 CharacterOffsetEnd=912 PartOfSpeech=NNP Lemma=Mater NamedEntityTag=O]
+[Text=Study CharacterOffsetBegin=913 CharacterOffsetEnd=918 PartOfSpeech=NNP Lemma=Study NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=919 CharacterOffsetEnd=921 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=1993 CharacterOffsetBegin=922 CharacterOffsetEnd=926 PartOfSpeech=CD Lemma=1993 NamedEntityTag=DATE NormalizedNamedEntityTag=1993 Timex=<TIMEX3 tid="t4" type="DATE" value="1993">1993</TIMEX3>]
+[Text=. CharacterOffsetBegin=926 CharacterOffsetEnd=927 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+
+Constituency parse: 
+(ROOT
+  (S
+    (NP (NNP Cynthia) (NNP Breazeal))
+    (VP (VBD earned)
+      (NP
+        (NP (NNP Mater) (NNP Study))
+        (PP (IN in)
+          (NP (CD 1993)))))
+    (. .)))
+
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, earned-3)
+compound(Breazeal-2, Cynthia-1)
+nsubj(earned-3, Breazeal-2)
+compound(Study-5, Mater-4)
+obj(earned-3, Study-5)
+case(1993-7, in-6)
+nmod:in(Study-5, 1993-7)
+punct(earned-3, .-8)
+
+Extracted the following NER entity mentions:
+Cynthia Breazeal	PERSON	PERSON:0.9474170828800024
+1993	DATE	DATE:0.9989403947459974
+
+Sentence #8 (17 tokens):
+Cynthia Breazeal earned Doctorate in 2000 in electrical engineering and computer science, both from MIT.
+
+Tokens:
+[Text=Cynthia CharacterOffsetBegin=928 CharacterOffsetEnd=935 PartOfSpeech=NNP Lemma=Cynthia NamedEntityTag=PERSON]
+[Text=Breazeal CharacterOffsetBegin=936 CharacterOffsetEnd=944 PartOfSpeech=NNP Lemma=Breazeal NamedEntityTag=PERSON]
+[Text=earned CharacterOffsetBegin=945 CharacterOffsetEnd=951 PartOfSpeech=VBD Lemma=earn NamedEntityTag=O]
+[Text=Doctorate CharacterOffsetBegin=952 CharacterOffsetEnd=961 PartOfSpeech=NN Lemma=doctorate NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=962 CharacterOffsetEnd=964 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=2000 CharacterOffsetBegin=965 CharacterOffsetEnd=969 PartOfSpeech=CD Lemma=2000 NamedEntityTag=DATE NormalizedNamedEntityTag=2000 Timex=<TIMEX3 tid="t5" type="DATE" value="2000">2000</TIMEX3>]
+[Text=in CharacterOffsetBegin=970 CharacterOffsetEnd=972 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=electrical CharacterOffsetBegin=973 CharacterOffsetEnd=983 PartOfSpeech=JJ Lemma=electrical NamedEntityTag=O]
+[Text=engineering CharacterOffsetBegin=984 CharacterOffsetEnd=995 PartOfSpeech=NN Lemma=engineering NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=996 CharacterOffsetEnd=999 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=computer CharacterOffsetBegin=1000 CharacterOffsetEnd=1008 PartOfSpeech=NN Lemma=computer NamedEntityTag=O]
+[Text=science CharacterOffsetBegin=1009 CharacterOffsetEnd=1016 PartOfSpeech=NN Lemma=science NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=1016 CharacterOffsetEnd=1017 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=both CharacterOffsetBegin=1018 CharacterOffsetEnd=1022 PartOfSpeech=CC Lemma=both NamedEntityTag=O]
+[Text=from CharacterOffsetBegin=1023 CharacterOffsetEnd=1027 PartOfSpeech=IN Lemma=from NamedEntityTag=O]
+[Text=MIT CharacterOffsetBegin=1028 CharacterOffsetEnd=1031 PartOfSpeech=NNP Lemma=MIT NamedEntityTag=ORGANIZATION]
+[Text=. CharacterOffsetBegin=1031 CharacterOffsetEnd=1032 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+
+Constituency parse: 
+(ROOT
+  (S
+    (NP (NNP Cynthia) (NNP Breazeal))
+    (VP (VBD earned)
+      (NP (NN Doctorate))
+      (PP (IN in)
+        (NP (CD 2000)))
+      (PP
+        (PP (IN in)
+          (NP (JJ electrical)
+            (NML (NN engineering)
+              (CC and)
+              (NN computer))
+            (NN science)))
+        (, ,)
+        (CC both)
+        (PP (IN from)
+          (NP (NNP MIT)))))
+    (. .)))
+
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, earned-3)
+compound(Breazeal-2, Cynthia-1)
+nsubj(earned-3, Breazeal-2)
+obj(earned-3, Doctorate-4)
+case(2000-6, in-5)
+obl:in(earned-3, 2000-6)
+case(science-12, in-7)
+amod(science-12, electrical-8)
+compound(science-12, engineering-9)
+cc(computer-11, and-10)
+conj:and(engineering-9, computer-11)
+compound(science-12, computer-11)
+obl:in(earned-3, science-12)
+punct(science-12, ,-13)
+dep(science-12, both-14)
+case(MIT-16, from-15)
+conj(science-12, MIT-16)
+punct(earned-3, .-17)
+
+Extracted the following NER entity mentions:
+Cynthia Breazeal	PERSON	PERSON:0.9700458888936897
+2000	DATE	DATE:0.9869028202255912
+MIT	ORGANIZATION	ORGANIZATION:0.683563707797741
+
+Sentence #9 (16 tokens):
+Cynthia Breazeal decided to switch her focus to social robotics after watching a NASA robot.
+
+Tokens:
+[Text=Cynthia CharacterOffsetBegin=1033 CharacterOffsetEnd=1040 PartOfSpeech=NNP Lemma=Cynthia NamedEntityTag=PERSON]
+[Text=Breazeal CharacterOffsetBegin=1041 CharacterOffsetEnd=1049 PartOfSpeech=NNP Lemma=Breazeal NamedEntityTag=PERSON]
+[Text=decided CharacterOffsetBegin=1050 CharacterOffsetEnd=1057 PartOfSpeech=VBD Lemma=decide NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=1058 CharacterOffsetEnd=1060 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=switch CharacterOffsetBegin=1061 CharacterOffsetEnd=1067 PartOfSpeech=VB Lemma=switch NamedEntityTag=O]
+[Text=her CharacterOffsetBegin=1068 CharacterOffsetEnd=1071 PartOfSpeech=PRP$ Lemma=she NamedEntityTag=O]
+[Text=focus CharacterOffsetBegin=1072 CharacterOffsetEnd=1077 PartOfSpeech=NN Lemma=focus NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=1078 CharacterOffsetEnd=1080 PartOfSpeech=IN Lemma=to NamedEntityTag=O]
+[Text=social CharacterOffsetBegin=1081 CharacterOffsetEnd=1087 PartOfSpeech=JJ Lemma=social NamedEntityTag=O]
+[Text=robotics CharacterOffsetBegin=1088 CharacterOffsetEnd=1096 PartOfSpeech=NNS Lemma=robotic NamedEntityTag=O]
+[Text=after CharacterOffsetBegin=1097 CharacterOffsetEnd=1102 PartOfSpeech=IN Lemma=after NamedEntityTag=O]
+[Text=watching CharacterOffsetBegin=1103 CharacterOffsetEnd=1111 PartOfSpeech=VBG Lemma=watch NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=1112 CharacterOffsetEnd=1113 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=NASA CharacterOffsetBegin=1114 CharacterOffsetEnd=1118 PartOfSpeech=NNP Lemma=NASA NamedEntityTag=ORGANIZATION]
+[Text=robot CharacterOffsetBegin=1119 CharacterOffsetEnd=1124 PartOfSpeech=NN Lemma=robot NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=1124 CharacterOffsetEnd=1125 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+
+Constituency parse: 
+(ROOT
+  (S
+    (NP (NNP Cynthia) (NNP Breazeal))
+    (VP (VBD decided)
+      (S
+        (VP (TO to)
+          (VP (VB switch)
+            (NP (PRP$ her) (NN focus))
+            (PP (IN to)
+              (NP (JJ social) (NNS robotics)))
+            (PP (IN after)
+              (S
+                (VP (VBG watching)
+                  (NP (DT a) (NNP NASA) (NN robot)))))))))
+    (. .)))
+
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, decided-3)
+compound(Breazeal-2, Cynthia-1)
+nsubj(decided-3, Breazeal-2)
+nsubj:xsubj(switch-5, Breazeal-2)
+mark(switch-5, to-4)
+xcomp(decided-3, switch-5)
+nmod:poss(focus-7, her-6)
+obj(switch-5, focus-7)
+case(robotics-10, to-8)
+amod(robotics-10, social-9)
+obl:to(switch-5, robotics-10)
+mark(watching-12, after-11)
+advcl:after(switch-5, watching-12)
+det(robot-15, a-13)
+compound(robot-15, NASA-14)
+obj(watching-12, robot-15)
+punct(decided-3, .-16)
+
+Extracted the following NER entity mentions:
+Cynthia Breazeal	PERSON	PERSON:0.9927870573573261
+NASA	ORGANIZATION	ORGANIZATION:0.9995921538568754
+her	PERSON	-
+
+Sentence #10 (27 tokens):
+Cynthia Breazeal developed the robot Kismet as a doctoral thesis under Rodney Brooks, which looked into the expressive social exchange between humans and humanoid robots.
+
+Tokens:
+[Text=Cynthia CharacterOffsetBegin=1127 CharacterOffsetEnd=1134 PartOfSpeech=NNP Lemma=Cynthia NamedEntityTag=PERSON]
+[Text=Breazeal CharacterOffsetBegin=1135 CharacterOffsetEnd=1143 PartOfSpeech=NNP Lemma=Breazeal NamedEntityTag=PERSON]
+[Text=developed CharacterOffsetBegin=1144 CharacterOffsetEnd=1153 PartOfSpeech=VBD Lemma=develop NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=1154 CharacterOffsetEnd=1157 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=robot CharacterOffsetBegin=1158 CharacterOffsetEnd=1163 PartOfSpeech=NN Lemma=robot NamedEntityTag=O]
+[Text=Kismet CharacterOffsetBegin=1164 CharacterOffsetEnd=1170 PartOfSpeech=NNP Lemma=Kismet NamedEntityTag=O]
+[Text=as CharacterOffsetBegin=1171 CharacterOffsetEnd=1173 PartOfSpeech=IN Lemma=as NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=1174 CharacterOffsetEnd=1175 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=doctoral CharacterOffsetBegin=1176 CharacterOffsetEnd=1184 PartOfSpeech=JJ Lemma=doctoral NamedEntityTag=O]
+[Text=thesis CharacterOffsetBegin=1185 CharacterOffsetEnd=1191 PartOfSpeech=NN Lemma=thesis NamedEntityTag=O]
+[Text=under CharacterOffsetBegin=1192 CharacterOffsetEnd=1197 PartOfSpeech=IN Lemma=under NamedEntityTag=O]
+[Text=Rodney CharacterOffsetBegin=1198 CharacterOffsetEnd=1204 PartOfSpeech=NNP Lemma=Rodney NamedEntityTag=PERSON]
+[Text=Brooks CharacterOffsetBegin=1205 CharacterOffsetEnd=1211 PartOfSpeech=NNP Lemma=Brooks NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=1211 CharacterOffsetEnd=1212 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=which CharacterOffsetBegin=1213 CharacterOffsetEnd=1218 PartOfSpeech=WDT Lemma=which NamedEntityTag=O]
+[Text=looked CharacterOffsetBegin=1219 CharacterOffsetEnd=1225 PartOfSpeech=VBD Lemma=look NamedEntityTag=O]
+[Text=into CharacterOffsetBegin=1226 CharacterOffsetEnd=1230 PartOfSpeech=IN Lemma=into NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=1231 CharacterOffsetEnd=1234 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=expressive CharacterOffsetBegin=1235 CharacterOffsetEnd=1245 PartOfSpeech=JJ Lemma=expressive NamedEntityTag=O]
+[Text=social CharacterOffsetBegin=1246 CharacterOffsetEnd=1252 PartOfSpeech=JJ Lemma=social NamedEntityTag=O]
+[Text=exchange CharacterOffsetBegin=1253 CharacterOffsetEnd=1261 PartOfSpeech=NN Lemma=exchange NamedEntityTag=O]
+[Text=between CharacterOffsetBegin=1262 CharacterOffsetEnd=1269 PartOfSpeech=IN Lemma=between NamedEntityTag=O]
+[Text=humans CharacterOffsetBegin=1270 CharacterOffsetEnd=1276 PartOfSpeech=NNS Lemma=human NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=1277 CharacterOffsetEnd=1280 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=humanoid CharacterOffsetBegin=1281 CharacterOffsetEnd=1289 PartOfSpeech=JJ Lemma=humanoid NamedEntityTag=O]
+[Text=robots CharacterOffsetBegin=1290 CharacterOffsetEnd=1296 PartOfSpeech=NNS Lemma=robot NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=1296 CharacterOffsetEnd=1297 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+
+Constituency parse: 
+(ROOT
+  (S
+    (NP (NNP Cynthia) (NNP Breazeal))
+    (VP (VBD developed)
+      (NP (DT the) (NN robot) (NNP Kismet))
+      (PP (IN as)
+        (NP (DT a) (JJ doctoral) (NN thesis)))
+      (PP (IN under)
+        (NP
+          (NP (NNP Rodney) (NNP Brooks))
+          (, ,)
+          (SBAR
+            (WHNP (WDT which))
+            (S
+              (VP (VBD looked)
+                (PP (IN into)
+                  (NP
+                    (NP (DT the)
+                      (ADJP (JJ expressive) (JJ social))
+                      (NN exchange))
+                    (PP (IN between)
+                      (NP
+                        (NP (NNS humans))
+                        (CC and)
+                        (NP (JJ humanoid) (NNS robots))))))))))))
+    (. .)))
+
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, developed-3)
+compound(Breazeal-2, Cynthia-1)
+nsubj(developed-3, Breazeal-2)
+det(Kismet-6, the-4)
+compound(Kismet-6, robot-5)
+obj(developed-3, Kismet-6)
+case(thesis-10, as-7)
+det(thesis-10, a-8)
+amod(thesis-10, doctoral-9)
+obl:as(developed-3, thesis-10)
+case(Brooks-13, under-11)
+compound(Brooks-13, Rodney-12)
+obl:under(developed-3, Brooks-13)
+nsubj(looked-16, Brooks-13)
+punct(Brooks-13, ,-14)
+ref(Brooks-13, which-15)
+acl:relcl(Brooks-13, looked-16)
+case(exchange-21, into-17)
+det(exchange-21, the-18)
+advmod(social-20, expressive-19)
+amod(exchange-21, social-20)
+obl:into(looked-16, exchange-21)
+case(humans-23, between-22)
+nmod:between(exchange-21, humans-23)
+cc(robots-26, and-24)
+amod(robots-26, humanoid-25)
+nmod:between(exchange-21, robots-26)
+conj:and(humans-23, robots-26)
+punct(developed-3, .-27)
+
+Extracted the following NER entity mentions:
+Cynthia Breazeal	PERSON	PERSON:0.9530732140051418
+Rodney Brooks	PERSON	PERSON:0.9386372427700505
+
+Sentence #11 (30 tokens):
+Kismet, as well as other robots Cynthia Breazeal co-developed while a graduate student at the MIT Artificial Intelligence Lab, can now be seen at the MIT Museum.
+
+Tokens:
+[Text=Kismet CharacterOffsetBegin=1298 CharacterOffsetEnd=1304 PartOfSpeech=NNP Lemma=Kismet NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=1304 CharacterOffsetEnd=1305 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=as CharacterOffsetBegin=1306 CharacterOffsetEnd=1308 PartOfSpeech=RB Lemma=as NamedEntityTag=O]
+[Text=well CharacterOffsetBegin=1309 CharacterOffsetEnd=1313 PartOfSpeech=RB Lemma=well NamedEntityTag=O]
+[Text=as CharacterOffsetBegin=1314 CharacterOffsetEnd=1316 PartOfSpeech=IN Lemma=as NamedEntityTag=O]
+[Text=other CharacterOffsetBegin=1317 CharacterOffsetEnd=1322 PartOfSpeech=JJ Lemma=other NamedEntityTag=O]
+[Text=robots CharacterOffsetBegin=1323 CharacterOffsetEnd=1329 PartOfSpeech=NNS Lemma=robot NamedEntityTag=O]
+[Text=Cynthia CharacterOffsetBegin=1330 CharacterOffsetEnd=1337 PartOfSpeech=NNP Lemma=Cynthia NamedEntityTag=PERSON]
+[Text=Breazeal CharacterOffsetBegin=1338 CharacterOffsetEnd=1346 PartOfSpeech=NNP Lemma=Breazeal NamedEntityTag=PERSON]
+[Text=co-developed CharacterOffsetBegin=1347 CharacterOffsetEnd=1359 PartOfSpeech=VBD Lemma=co-develop NamedEntityTag=O]
+[Text=while CharacterOffsetBegin=1360 CharacterOffsetEnd=1365 PartOfSpeech=IN Lemma=while NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=1366 CharacterOffsetEnd=1367 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=graduate CharacterOffsetBegin=1368 CharacterOffsetEnd=1376 PartOfSpeech=NN Lemma=graduate NamedEntityTag=O]
+[Text=student CharacterOffsetBegin=1377 CharacterOffsetEnd=1384 PartOfSpeech=NN Lemma=student NamedEntityTag=TITLE]
+[Text=at CharacterOffsetBegin=1385 CharacterOffsetEnd=1387 PartOfSpeech=IN Lemma=at NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=1388 CharacterOffsetEnd=1391 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=MIT CharacterOffsetBegin=1392 CharacterOffsetEnd=1395 PartOfSpeech=NNP Lemma=MIT NamedEntityTag=ORGANIZATION]
+[Text=Artificial CharacterOffsetBegin=1396 CharacterOffsetEnd=1406 PartOfSpeech=NNP Lemma=Artificial NamedEntityTag=ORGANIZATION]
+[Text=Intelligence CharacterOffsetBegin=1407 CharacterOffsetEnd=1419 PartOfSpeech=NNP Lemma=Intelligence NamedEntityTag=ORGANIZATION]
+[Text=Lab CharacterOffsetBegin=1420 CharacterOffsetEnd=1423 PartOfSpeech=NNP Lemma=Lab NamedEntityTag=ORGANIZATION]
+[Text=, CharacterOffsetBegin=1423 CharacterOffsetEnd=1424 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=can CharacterOffsetBegin=1425 CharacterOffsetEnd=1428 PartOfSpeech=MD Lemma=can NamedEntityTag=O]
+[Text=now CharacterOffsetBegin=1429 CharacterOffsetEnd=1432 PartOfSpeech=RB Lemma=now NamedEntityTag=DATE NormalizedNamedEntityTag=PRESENT_REF Timex=<TIMEX3 tid="t6" type="DATE" value="PRESENT_REF">now</TIMEX3>]
+[Text=be CharacterOffsetBegin=1433 CharacterOffsetEnd=1435 PartOfSpeech=VB Lemma=be NamedEntityTag=O]
+[Text=seen CharacterOffsetBegin=1436 CharacterOffsetEnd=1440 PartOfSpeech=VBN Lemma=see NamedEntityTag=O]
+[Text=at CharacterOffsetBegin=1441 CharacterOffsetEnd=1443 PartOfSpeech=IN Lemma=at NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=1444 CharacterOffsetEnd=1447 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=MIT CharacterOffsetBegin=1448 CharacterOffsetEnd=1451 PartOfSpeech=NNP Lemma=MIT NamedEntityTag=ORGANIZATION]
+[Text=Museum CharacterOffsetBegin=1452 CharacterOffsetEnd=1458 PartOfSpeech=NNP Lemma=Museum NamedEntityTag=ORGANIZATION]
+[Text=. CharacterOffsetBegin=1458 CharacterOffsetEnd=1459 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+
+Constituency parse: 
+(ROOT
+  (S
+    (NP
+      (NP (NNP Kismet))
+      (, ,)
+      (CONJP (RB as) (RB well) (IN as))
+      (NP (JJ other) (NNS robots))
+      (NML (NNP Cynthia) (NNP Breazeal)))
+    (VP (VBD co-developed)
+      (SBAR (IN while)
+        (S
+          (NP
+            (NP (DT a) (NN graduate) (NN student))
+            (PP (IN at)
+              (NP (DT the) (NNP MIT) (NNP Artificial) (NNP Intelligence) (NNP Lab))))
+          (, ,)
+          (VP (MD can)
+            (ADVP (RB now))
+            (VP (VB be)
+              (VP (VBN seen)
+                (PP (IN at)
+                  (NP (DT the) (NNP MIT) (NNP Museum)))))))))
+    (. .)))
+
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, co-developed-10)
+dep(Breazeal-9, Kismet-1)
+punct(Breazeal-9, ,-2)
+cc(Breazeal-9, as-3)
+fixed(as-3, well-4)
+fixed(as-3, as-5)
+amod(robots-7, other-6)
+conj(Breazeal-9, robots-7)
+compound(Breazeal-9, Cynthia-8)
+nsubj(co-developed-10, Breazeal-9)
+mark(seen-25, while-11)
+det(student-14, a-12)
+compound(student-14, graduate-13)
+nsubj:pass(seen-25, student-14)
+case(Lab-20, at-15)
+det(Lab-20, the-16)
+compound(Lab-20, MIT-17)
+compound(Lab-20, Artificial-18)
+compound(Lab-20, Intelligence-19)
+nmod:at(student-14, Lab-20)
+punct(seen-25, ,-21)
+aux(seen-25, can-22)
+advmod(seen-25, now-23)
+aux:pass(seen-25, be-24)
+advcl:while(co-developed-10, seen-25)
+case(Museum-29, at-26)
+det(Museum-29, the-27)
+compound(Museum-29, MIT-28)
+obl:at(seen-25, Museum-29)
+punct(co-developed-10, .-30)
+
+Extracted the following NER entity mentions:
+Cynthia Breazeal	PERSON	PERSON:0.9766323279724424
+student	TITLE	-
+MIT Artificial Intelligence Lab	ORGANIZATION	ORGANIZATION:0.9789322733239683
+now	DATE	DATE:-1.0
+MIT Museum	ORGANIZATION	ORGANIZATION:0.5758577076614197
+
+Sentence #12 (20 tokens):
+Notable examples include the upper torso humanoid robot, Cog; and the insect-like robot, Hannibal.
+
+Tokens:
+[Text=Notable CharacterOffsetBegin=1460 CharacterOffsetEnd=1467 PartOfSpeech=JJ Lemma=notable NamedEntityTag=O]
+[Text=examples CharacterOffsetBegin=1468 CharacterOffsetEnd=1476 PartOfSpeech=NNS Lemma=example NamedEntityTag=O]
+[Text=include CharacterOffsetBegin=1477 CharacterOffsetEnd=1484 PartOfSpeech=VBP Lemma=include NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=1485 CharacterOffsetEnd=1488 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=upper CharacterOffsetBegin=1489 CharacterOffsetEnd=1494 PartOfSpeech=JJ Lemma=upper NamedEntityTag=O]
+[Text=torso CharacterOffsetBegin=1495 CharacterOffsetEnd=1500 PartOfSpeech=NN Lemma=torso NamedEntityTag=O]
+[Text=humanoid CharacterOffsetBegin=1501 CharacterOffsetEnd=1509 PartOfSpeech=JJ Lemma=humanoid NamedEntityTag=O]
+[Text=robot CharacterOffsetBegin=1510 CharacterOffsetEnd=1515 PartOfSpeech=NN Lemma=robot NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=1515 CharacterOffsetEnd=1516 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=Cog CharacterOffsetBegin=1517 CharacterOffsetEnd=1520 PartOfSpeech=NN Lemma=cog NamedEntityTag=O]
+[Text=; CharacterOffsetBegin=1520 CharacterOffsetEnd=1521 PartOfSpeech=: Lemma=; NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=1522 CharacterOffsetEnd=1525 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=1526 CharacterOffsetEnd=1529 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=insect CharacterOffsetBegin=1530 CharacterOffsetEnd=1536 PartOfSpeech=NN Lemma=insect NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=1536 CharacterOffsetEnd=1537 PartOfSpeech=HYPH Lemma=- NamedEntityTag=O]
+[Text=like CharacterOffsetBegin=1537 CharacterOffsetEnd=1541 PartOfSpeech=JJ Lemma=like NamedEntityTag=O]
+[Text=robot CharacterOffsetBegin=1542 CharacterOffsetEnd=1547 PartOfSpeech=NN Lemma=robot NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=1547 CharacterOffsetEnd=1548 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=Hannibal CharacterOffsetBegin=1549 CharacterOffsetEnd=1557 PartOfSpeech=NNP Lemma=Hannibal NamedEntityTag=PERSON]
+[Text=. CharacterOffsetBegin=1557 CharacterOffsetEnd=1558 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+
+Constituency parse: 
+(ROOT
+  (FRAG
+    (S
+      (NP (JJ Notable) (NNS examples))
+      (VP (VBP include)
+        (NP (DT the) (JJ upper) (NN torso))))
+    (FRAG
+      (NP
+        (NP (JJ humanoid) (NN robot))
+        (, ,)
+        (NP (NN Cog))
+        (: ;)
+        (CC and)
+        (NP (DT the)
+          (ADJP (NN insect) (HYPH -) (JJ like))
+          (NN robot)))
+      (, ,)
+      (NP (NNP Hannibal)))
+    (. .)))
+
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, robot-8)
+amod(examples-2, Notable-1)
+nsubj(include-3, examples-2)
+dep(robot-8, include-3)
+det(torso-6, the-4)
+amod(torso-6, upper-5)
+obj(include-3, torso-6)
+amod(robot-8, humanoid-7)
+punct(robot-8, ,-9)
+conj:and(robot-8, Cog-10)
+punct(robot-8, ;-11)
+cc(robot-17, and-12)
+det(robot-17, the-13)
+obl:npmod(like-16, insect-14)
+punct(like-16, --15)
+amod(robot-17, like-16)
+conj:and(robot-8, robot-17)
+punct(robot-8, ,-18)
+appos(robot-8, Hannibal-19)
+punct(robot-8, .-20)
+
+Extracted the following NER entity mentions:
+Hannibal	PERSON	PERSON:0.6155518275017217
+
+Sentence #13 (16 tokens):
+Cynthia Breazeal worked on Leonard, Aida, Autom and Huggable in the early 2000s.
+
+Tokens:
+[Text=Cynthia CharacterOffsetBegin=1559 CharacterOffsetEnd=1566 PartOfSpeech=NNP Lemma=Cynthia NamedEntityTag=PERSON]
+[Text=Breazeal CharacterOffsetBegin=1567 CharacterOffsetEnd=1575 PartOfSpeech=NNP Lemma=Breazeal NamedEntityTag=PERSON]
+[Text=worked CharacterOffsetBegin=1576 CharacterOffsetEnd=1582 PartOfSpeech=VBD Lemma=work NamedEntityTag=O]
+[Text=on CharacterOffsetBegin=1583 CharacterOffsetEnd=1585 PartOfSpeech=IN Lemma=on NamedEntityTag=O]
+[Text=Leonard CharacterOffsetBegin=1586 CharacterOffsetEnd=1593 PartOfSpeech=NNP Lemma=Leonard NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=1593 CharacterOffsetEnd=1594 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=Aida CharacterOffsetBegin=1595 CharacterOffsetEnd=1599 PartOfSpeech=NNP Lemma=Aida NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=1599 CharacterOffsetEnd=1600 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=Autom CharacterOffsetBegin=1601 CharacterOffsetEnd=1606 PartOfSpeech=NNP Lemma=Autom NamedEntityTag=ORGANIZATION]
+[Text=and CharacterOffsetBegin=1607 CharacterOffsetEnd=1610 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=Huggable CharacterOffsetBegin=1611 CharacterOffsetEnd=1619 PartOfSpeech=NNP Lemma=Huggable NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=1620 CharacterOffsetEnd=1622 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=1623 CharacterOffsetEnd=1626 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=early CharacterOffsetBegin=1627 CharacterOffsetEnd=1632 PartOfSpeech=JJ Lemma=early NamedEntityTag=O]
+[Text=2000s CharacterOffsetBegin=1633 CharacterOffsetEnd=1638 PartOfSpeech=NNS Lemma=2000 NamedEntityTag=DATE NormalizedNamedEntityTag=200X Timex=<TIMEX3 tid="t7" type="SET" value="200X">2000s</TIMEX3>]
+[Text=. CharacterOffsetBegin=1638 CharacterOffsetEnd=1639 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+
+Constituency parse: 
+(ROOT
+  (S
+    (NP (NNP Cynthia) (NNP Breazeal))
+    (VP (VBD worked)
+      (PP (IN on)
+        (NP (NNP Leonard) (, ,) (NNP Aida) (, ,) (NNP Autom)
+          (CC and)
+          (NNP Huggable)))
+      (PP (IN in)
+        (NP (DT the) (JJ early) (NNS 2000s))))
+    (. .)))
+
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, worked-3)
+compound(Breazeal-2, Cynthia-1)
+nsubj(worked-3, Breazeal-2)
+case(Leonard-5, on-4)
+obl:on(worked-3, Leonard-5)
+punct(Leonard-5, ,-6)
+obl:on(worked-3, Aida-7)
+conj:and(Leonard-5, Aida-7)
+punct(Leonard-5, ,-8)
+obl:on(worked-3, Autom-9)
+conj:and(Leonard-5, Autom-9)
+cc(Huggable-11, and-10)
+obl:on(worked-3, Huggable-11)
+conj:and(Leonard-5, Huggable-11)
+case(2000s-15, in-12)
+det(2000s-15, the-13)
+amod(2000s-15, early-14)
+obl:in(worked-3, 2000s-15)
+punct(worked-3, .-16)
+
+Extracted the following NER entity mentions:
+Cynthia Breazeal	PERSON	PERSON:0.9832483705349333
+Leonard	PERSON	PERSON:0.9087956729423684
+Aida	PERSON	PERSON:0.29857453657799216
+Autom	ORGANIZATION	ORGANIZATION:0.519235430420996
+2000s	DATE	DATE:0.8679913397744257
+
+Sentence #14 (32 tokens):
+Cynthia Breazeal is a professor of Media Arts and Sciences at MIT, where Cynthia Breazeal founded and is the current director of the Personal Robotics group within the Media Lab.
+
+Tokens:
+[Text=Cynthia CharacterOffsetBegin=1644 CharacterOffsetEnd=1651 PartOfSpeech=NNP Lemma=Cynthia NamedEntityTag=PERSON]
+[Text=Breazeal CharacterOffsetBegin=1652 CharacterOffsetEnd=1660 PartOfSpeech=NNP Lemma=Breazeal NamedEntityTag=PERSON]
+[Text=is CharacterOffsetBegin=1661 CharacterOffsetEnd=1663 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=1664 CharacterOffsetEnd=1665 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=professor CharacterOffsetBegin=1666 CharacterOffsetEnd=1675 PartOfSpeech=NN Lemma=professor NamedEntityTag=TITLE]
+[Text=of CharacterOffsetBegin=1676 CharacterOffsetEnd=1678 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=Media CharacterOffsetBegin=1679 CharacterOffsetEnd=1684 PartOfSpeech=NNP Lemma=Media NamedEntityTag=ORGANIZATION]
+[Text=Arts CharacterOffsetBegin=1685 CharacterOffsetEnd=1689 PartOfSpeech=NNPS Lemma=Arts NamedEntityTag=ORGANIZATION]
+[Text=and CharacterOffsetBegin=1690 CharacterOffsetEnd=1693 PartOfSpeech=CC Lemma=and NamedEntityTag=ORGANIZATION]
+[Text=Sciences CharacterOffsetBegin=1694 CharacterOffsetEnd=1702 PartOfSpeech=NNPS Lemma=Sciences NamedEntityTag=ORGANIZATION]
+[Text=at CharacterOffsetBegin=1703 CharacterOffsetEnd=1705 PartOfSpeech=IN Lemma=at NamedEntityTag=O]
+[Text=MIT CharacterOffsetBegin=1706 CharacterOffsetEnd=1709 PartOfSpeech=NNP Lemma=MIT NamedEntityTag=ORGANIZATION]
+[Text=, CharacterOffsetBegin=1709 CharacterOffsetEnd=1710 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=where CharacterOffsetBegin=1711 CharacterOffsetEnd=1716 PartOfSpeech=WRB Lemma=where NamedEntityTag=O]
+[Text=Cynthia CharacterOffsetBegin=1717 CharacterOffsetEnd=1724 PartOfSpeech=NNP Lemma=Cynthia NamedEntityTag=PERSON]
+[Text=Breazeal CharacterOffsetBegin=1725 CharacterOffsetEnd=1733 PartOfSpeech=NNP Lemma=Breazeal NamedEntityTag=PERSON]
+[Text=founded CharacterOffsetBegin=1734 CharacterOffsetEnd=1741 PartOfSpeech=VBD Lemma=found NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=1742 CharacterOffsetEnd=1745 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=1746 CharacterOffsetEnd=1748 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=1749 CharacterOffsetEnd=1752 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=current CharacterOffsetBegin=1753 CharacterOffsetEnd=1760 PartOfSpeech=JJ Lemma=current NamedEntityTag=DATE NormalizedNamedEntityTag=PRESENT_REF Timex=<TIMEX3 tid="t8" type="DATE" value="PRESENT_REF">current</TIMEX3>]
+[Text=director CharacterOffsetBegin=1761 CharacterOffsetEnd=1769 PartOfSpeech=NN Lemma=director NamedEntityTag=TITLE]
+[Text=of CharacterOffsetBegin=1770 CharacterOffsetEnd=1772 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=1773 CharacterOffsetEnd=1776 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Personal CharacterOffsetBegin=1777 CharacterOffsetEnd=1785 PartOfSpeech=NNP Lemma=Personal NamedEntityTag=ORGANIZATION]
+[Text=Robotics CharacterOffsetBegin=1786 CharacterOffsetEnd=1794 PartOfSpeech=NNP Lemma=Robotics NamedEntityTag=ORGANIZATION]
+[Text=group CharacterOffsetBegin=1795 CharacterOffsetEnd=1800 PartOfSpeech=NN Lemma=group NamedEntityTag=O]
+[Text=within CharacterOffsetBegin=1801 CharacterOffsetEnd=1807 PartOfSpeech=IN Lemma=within NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=1808 CharacterOffsetEnd=1811 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Media CharacterOffsetBegin=1812 CharacterOffsetEnd=1817 PartOfSpeech=NN Lemma=media NamedEntityTag=ORGANIZATION]
+[Text=Lab CharacterOffsetBegin=1818 CharacterOffsetEnd=1821 PartOfSpeech=NN Lemma=lab NamedEntityTag=ORGANIZATION]
+[Text=. CharacterOffsetBegin=1821 CharacterOffsetEnd=1822 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+
+Constituency parse: 
+(ROOT
+  (S
+    (NP (NNP Cynthia) (NNP Breazeal))
+    (VP (VBZ is)
+      (NP
+        (NP (DT a) (NN professor))
+        (PP (IN of)
+          (NP
+            (NP
+              (NP (NNP Media) (NNPS Arts)
+                (CC and)
+                (NNPS Sciences))
+              (PP (IN at)
+                (NP (NNP MIT))))
+            (, ,)
+            (SBAR
+              (WHADVP (WRB where))
+              (S
+                (NP (NNP Cynthia) (NNP Breazeal))
+                (VP
+                  (VP (VBD founded))
+                  (CC and)
+                  (VP (VBZ is)
+                    (NP
+                      (NP (DT the) (JJ current) (NN director))
+                      (PP (IN of)
+                        (NP
+                          (NP (DT the)
+                            (NML (NNP Personal) (NNP Robotics))
+                            (NN group))
+                          (PP (IN within)
+                            (NP (DT the) (NN Media) (NN Lab))))))))))))))
+    (. .)))
+
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, professor-5)
+compound(Breazeal-2, Cynthia-1)
+nsubj(professor-5, Breazeal-2)
+cop(professor-5, is-3)
+det(professor-5, a-4)
+case(Arts-8, of-6)
+compound(Arts-8, Media-7)
+nmod:of(professor-5, Arts-8)
+cc(Sciences-10, and-9)
+nmod:of(professor-5, Sciences-10)
+conj:and(Arts-8, Sciences-10)
+case(MIT-12, at-11)
+nmod:at(Arts-8, MIT-12)
+punct(Arts-8, ,-13)
+advmod(founded-17, where-14)
+compound(Breazeal-16, Cynthia-15)
+nsubj(founded-17, Breazeal-16)
+acl:relcl(Arts-8, founded-17)
+cc(director-22, and-18)
+cop(director-22, is-19)
+det(director-22, the-20)
+amod(director-22, current-21)
+acl:relcl(Arts-8, director-22)
+conj:and(founded-17, director-22)
+case(group-27, of-23)
+det(group-27, the-24)
+compound(Robotics-26, Personal-25)
+compound(group-27, Robotics-26)
+nmod:of(director-22, group-27)
+case(Lab-31, within-28)
+det(Lab-31, the-29)
+compound(Lab-31, Media-30)
+nmod:within(group-27, Lab-31)
+punct(professor-5, .-32)
+
+Extracted the following NER entity mentions:
+Cynthia Breazeal	PERSON	PERSON:0.9945946487070426
+professor	TITLE	-
+Media Arts and Sciences	ORGANIZATION	ORGANIZATION:0.9767915389988856
+MIT	ORGANIZATION	ORGANIZATION:0.8781769404967956
+Cynthia Breazeal	PERSON	PERSON:0.985684528643099
+current	DATE	DATE:-1.0
+director	TITLE	-
+Personal Robotics	ORGANIZATION	ORGANIZATION:0.8950574830524641
+Media Lab	ORGANIZATION	ORGANIZATION:0.4903327352003667
+
+Extracted the following KBP triples:
+0.629054604135229	Media Arts and Sciences	org:top_members_employees	Cynthia Breazeal
+1.0	Media Arts and Sciences	org:parents	MIT
+0.5127774258146632	Cynthia Breazeal	per:employee_or_member_of	MIT
+0.5521205765915526	Cynthia Breazeal	per:employee_or_member_of	Media Lab
+0.817820016454496	Media Lab	org:top_members_employees	Cynthia Breazeal
+0.8336267620280077	Personal Robotics	org:top_members_employees	Cynthia Breazeal
+0.937149908691294	Cynthia Breazeal	per:title	director
+1.0	Cynthia Breazeal	per:title	professor
+1.0	Cynthia Breazeal	per:employee_or_member_of	Media Arts and Sciences
+0.5350481747737454	Cynthia Breazeal	per:employee_or_member_of	Personal Robotics
+
+Sentence #15 (23 tokens):
+Cynthia Breazeal has written several books in the field of robotics and has published several peer-reviewed articles on the topic.
+
+Tokens:
+[Text=Cynthia CharacterOffsetBegin=1823 CharacterOffsetEnd=1830 PartOfSpeech=NNP Lemma=Cynthia NamedEntityTag=PERSON]
+[Text=Breazeal CharacterOffsetBegin=1831 CharacterOffsetEnd=1839 PartOfSpeech=NNP Lemma=Breazeal NamedEntityTag=PERSON]
+[Text=has CharacterOffsetBegin=1840 CharacterOffsetEnd=1843 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O]
+[Text=written CharacterOffsetBegin=1844 CharacterOffsetEnd=1851 PartOfSpeech=VBN Lemma=write NamedEntityTag=O]
+[Text=several CharacterOffsetBegin=1852 CharacterOffsetEnd=1859 PartOfSpeech=JJ Lemma=several NamedEntityTag=O]
+[Text=books CharacterOffsetBegin=1860 CharacterOffsetEnd=1865 PartOfSpeech=NNS Lemma=book NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=1866 CharacterOffsetEnd=1868 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=1869 CharacterOffsetEnd=1872 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=field CharacterOffsetBegin=1873 CharacterOffsetEnd=1878 PartOfSpeech=NN Lemma=field NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=1879 CharacterOffsetEnd=1881 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=robotics CharacterOffsetBegin=1882 CharacterOffsetEnd=1890 PartOfSpeech=NNS Lemma=robotic NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=1891 CharacterOffsetEnd=1894 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=has CharacterOffsetBegin=1895 CharacterOffsetEnd=1898 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O]
+[Text=published CharacterOffsetBegin=1899 CharacterOffsetEnd=1908 PartOfSpeech=VBN Lemma=publish NamedEntityTag=O]
+[Text=several CharacterOffsetBegin=1909 CharacterOffsetEnd=1916 PartOfSpeech=JJ Lemma=several NamedEntityTag=O]
+[Text=peer CharacterOffsetBegin=1917 CharacterOffsetEnd=1921 PartOfSpeech=NN Lemma=peer NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=1921 CharacterOffsetEnd=1922 PartOfSpeech=HYPH Lemma=- NamedEntityTag=O]
+[Text=reviewed CharacterOffsetBegin=1922 CharacterOffsetEnd=1930 PartOfSpeech=VBN Lemma=review NamedEntityTag=O]
+[Text=articles CharacterOffsetBegin=1931 CharacterOffsetEnd=1939 PartOfSpeech=NNS Lemma=article NamedEntityTag=O]
+[Text=on CharacterOffsetBegin=1940 CharacterOffsetEnd=1942 PartOfSpeech=IN Lemma=on NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=1943 CharacterOffsetEnd=1946 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=topic CharacterOffsetBegin=1947 CharacterOffsetEnd=1952 PartOfSpeech=NN Lemma=topic NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=1952 CharacterOffsetEnd=1953 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+
+Constituency parse: 
+(ROOT
+  (S
+    (NP (NNP Cynthia) (NNP Breazeal))
+    (VP
+      (VP (VBZ has)
+        (VP (VBN written)
+          (NP (JJ several) (NNS books))
+          (PP (IN in)
+            (NP
+              (NP (DT the) (NN field))
+              (PP (IN of)
+                (NP (NNS robotics)))))))
+      (CC and)
+      (VP (VBZ has)
+        (VP (VBN published)
+          (NP
+            (NP
+              (ADJP
+                (NP (JJ several) (NN peer))
+                (HYPH -) (VBN reviewed))
+              (NNS articles))
+            (PP (IN on)
+              (NP (DT the) (NN topic)))))))
+    (. .)))
+
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, written-4)
+compound(Breazeal-2, Cynthia-1)
+nsubj(written-4, Breazeal-2)
+nsubj(published-14, Breazeal-2)
+aux(written-4, has-3)
+amod(books-6, several-5)
+obj(written-4, books-6)
+case(field-9, in-7)
+det(field-9, the-8)
+obl:in(written-4, field-9)
+case(robotics-11, of-10)
+nmod:of(field-9, robotics-11)
+cc(published-14, and-12)
+aux(published-14, has-13)
+conj:and(written-4, published-14)
+amod(peer-16, several-15)
+obl(reviewed-18, peer-16)
+punct(reviewed-18, --17)
+amod(articles-19, reviewed-18)
+obj(published-14, articles-19)
+case(topic-22, on-20)
+det(topic-22, the-21)
+nmod:on(articles-19, topic-22)
+punct(written-4, .-23)
+
+Extracted the following NER entity mentions:
+Cynthia Breazeal	PERSON	PERSON:0.9913889641359437
+
+Sentence #16 (16 tokens):
+Cynthia Breazeal also serves on multiple editorial boards for autonomous and various other robotic committees.
+
+Tokens:
+[Text=Cynthia CharacterOffsetBegin=1954 CharacterOffsetEnd=1961 PartOfSpeech=NNP Lemma=Cynthia NamedEntityTag=PERSON]
+[Text=Breazeal CharacterOffsetBegin=1962 CharacterOffsetEnd=1970 PartOfSpeech=NNP Lemma=Breazeal NamedEntityTag=PERSON]
+[Text=also CharacterOffsetBegin=1971 CharacterOffsetEnd=1975 PartOfSpeech=RB Lemma=also NamedEntityTag=O]
+[Text=serves CharacterOffsetBegin=1976 CharacterOffsetEnd=1982 PartOfSpeech=VBZ Lemma=serve NamedEntityTag=O]
+[Text=on CharacterOffsetBegin=1983 CharacterOffsetEnd=1985 PartOfSpeech=IN Lemma=on NamedEntityTag=O]
+[Text=multiple CharacterOffsetBegin=1986 CharacterOffsetEnd=1994 PartOfSpeech=JJ Lemma=multiple NamedEntityTag=O]
+[Text=editorial CharacterOffsetBegin=1995 CharacterOffsetEnd=2004 PartOfSpeech=JJ Lemma=editorial NamedEntityTag=O]
+[Text=boards CharacterOffsetBegin=2005 CharacterOffsetEnd=2011 PartOfSpeech=NNS Lemma=board NamedEntityTag=O]
+[Text=for CharacterOffsetBegin=2012 CharacterOffsetEnd=2015 PartOfSpeech=IN Lemma=for NamedEntityTag=O]
+[Text=autonomous CharacterOffsetBegin=2016 CharacterOffsetEnd=2026 PartOfSpeech=JJ Lemma=autonomous NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=2027 CharacterOffsetEnd=2030 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=various CharacterOffsetBegin=2031 CharacterOffsetEnd=2038 PartOfSpeech=JJ Lemma=various NamedEntityTag=O]
+[Text=other CharacterOffsetBegin=2039 CharacterOffsetEnd=2044 PartOfSpeech=JJ Lemma=other NamedEntityTag=O]
+[Text=robotic CharacterOffsetBegin=2045 CharacterOffsetEnd=2052 PartOfSpeech=JJ Lemma=robotic NamedEntityTag=O]
+[Text=committees CharacterOffsetBegin=2053 CharacterOffsetEnd=2063 PartOfSpeech=NNS Lemma=committee NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=2063 CharacterOffsetEnd=2064 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+
+Constituency parse: 
+(ROOT
+  (S
+    (NP (NNP Cynthia) (NNP Breazeal))
+    (ADVP (RB also))
+    (VP (VBZ serves)
+      (PP (IN on)
+        (NP
+          (NP (JJ multiple) (JJ editorial) (NNS boards))
+          (PP (IN for)
+            (NP
+              (NP (JJ autonomous))
+              (CC and)
+              (NP (JJ various) (JJ other) (JJ robotic) (NNS committees)))))))
+    (. .)))
+
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, serves-4)
+compound(Breazeal-2, Cynthia-1)
+nsubj(serves-4, Breazeal-2)
+advmod(serves-4, also-3)
+case(boards-8, on-5)
+amod(boards-8, multiple-6)
+amod(boards-8, editorial-7)
+obl:on(serves-4, boards-8)
+case(autonomous-10, for-9)
+nmod:for(boards-8, autonomous-10)
+cc(committees-15, and-11)
+amod(committees-15, various-12)
+amod(committees-15, other-13)
+amod(committees-15, robotic-14)
+nmod:for(boards-8, committees-15)
+conj:and(autonomous-10, committees-15)
+punct(serves-4, .-16)
+
+Extracted the following NER entity mentions:
+Cynthia Breazeal	PERSON	PERSON:0.9657694206123768
+
+Sentence #17 (27 tokens):
+Growing up and while studying in university, Cynthia Breazeal found that the issue was that robots too often only interacted with objects and not people.
+
+Tokens:
+[Text=Growing CharacterOffsetBegin=2065 CharacterOffsetEnd=2072 PartOfSpeech=VBG Lemma=grow NamedEntityTag=O]
+[Text=up CharacterOffsetBegin=2073 CharacterOffsetEnd=2075 PartOfSpeech=RP Lemma=up NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=2076 CharacterOffsetEnd=2079 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=while CharacterOffsetBegin=2080 CharacterOffsetEnd=2085 PartOfSpeech=IN Lemma=while NamedEntityTag=O]
+[Text=studying CharacterOffsetBegin=2086 CharacterOffsetEnd=2094 PartOfSpeech=VBG Lemma=study NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=2095 CharacterOffsetEnd=2097 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=university CharacterOffsetBegin=2098 CharacterOffsetEnd=2108 PartOfSpeech=NN Lemma=university NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=2108 CharacterOffsetEnd=2109 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=Cynthia CharacterOffsetBegin=2110 CharacterOffsetEnd=2117 PartOfSpeech=NNP Lemma=Cynthia NamedEntityTag=PERSON]
+[Text=Breazeal CharacterOffsetBegin=2118 CharacterOffsetEnd=2126 PartOfSpeech=NNP Lemma=Breazeal NamedEntityTag=PERSON]
+[Text=found CharacterOffsetBegin=2127 CharacterOffsetEnd=2132 PartOfSpeech=VBD Lemma=find NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=2133 CharacterOffsetEnd=2137 PartOfSpeech=IN Lemma=that NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=2138 CharacterOffsetEnd=2141 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=issue CharacterOffsetBegin=2142 CharacterOffsetEnd=2147 PartOfSpeech=NN Lemma=issue NamedEntityTag=O]
+[Text=was CharacterOffsetBegin=2148 CharacterOffsetEnd=2151 PartOfSpeech=VBD Lemma=be NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=2152 CharacterOffsetEnd=2156 PartOfSpeech=IN Lemma=that NamedEntityTag=O]
+[Text=robots CharacterOffsetBegin=2157 CharacterOffsetEnd=2163 PartOfSpeech=NNS Lemma=robot NamedEntityTag=O]
+[Text=too CharacterOffsetBegin=2164 CharacterOffsetEnd=2167 PartOfSpeech=RB Lemma=too NamedEntityTag=O]
+[Text=often CharacterOffsetBegin=2168 CharacterOffsetEnd=2173 PartOfSpeech=RB Lemma=often NamedEntityTag=O]
+[Text=only CharacterOffsetBegin=2174 CharacterOffsetEnd=2178 PartOfSpeech=RB Lemma=only NamedEntityTag=O]
+[Text=interacted CharacterOffsetBegin=2179 CharacterOffsetEnd=2189 PartOfSpeech=VBN Lemma=interact NamedEntityTag=O]
+[Text=with CharacterOffsetBegin=2190 CharacterOffsetEnd=2194 PartOfSpeech=IN Lemma=with NamedEntityTag=O]
+[Text=objects CharacterOffsetBegin=2195 CharacterOffsetEnd=2202 PartOfSpeech=NNS Lemma=object NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=2203 CharacterOffsetEnd=2206 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=not CharacterOffsetBegin=2207 CharacterOffsetEnd=2210 PartOfSpeech=RB Lemma=not NamedEntityTag=O]
+[Text=people CharacterOffsetBegin=2211 CharacterOffsetEnd=2217 PartOfSpeech=NNS Lemma=person NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=2217 CharacterOffsetEnd=2218 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+
+Constituency parse: 
+(ROOT
+  (S
+    (S
+      (NP (VBG Growing) (RP up)))
+    (CC and)
+    (S
+      (SBAR (IN while)
+        (S
+          (VP (VBG studying)
+            (PP (IN in)
+              (NP (NN university))))))
+      (, ,)
+      (NP (NNP Cynthia) (NNP Breazeal))
+      (VP (VBD found)
+        (SBAR (IN that)
+          (S
+            (NP (DT the) (NN issue))
+            (VP (VBD was)
+              (SBAR (IN that)
+                (S
+                  (NP (NNS robots))
+                  (ADVP (RB too) (RB often))
+                  (ADVP (RB only))
+                  (VP
+                    (VP (VBN interacted)
+                      (PP (IN with)
+                        (NP (NNS objects))))
+                    (CC and)
+                    (VP (RB not)
+                      (NP (NNS people)))))))))))
+    (. .)))
+
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, Growing-1)
+dep(Growing-1, up-2)
+cc(found-11, and-3)
+mark(studying-5, while-4)
+advcl:while(found-11, studying-5)
+case(university-7, in-6)
+obl:in(studying-5, university-7)
+punct(found-11, ,-8)
+compound(Breazeal-10, Cynthia-9)
+nsubj(found-11, Breazeal-10)
+conj:and(Growing-1, found-11)
+mark(was-15, that-12)
+det(issue-14, the-13)
+nsubj(was-15, issue-14)
+ccomp(found-11, was-15)
+mark(interacted-21, that-16)
+nsubj(interacted-21, robots-17)
+advmod(often-19, too-18)
+advmod(interacted-21, often-19)
+advmod(interacted-21, only-20)
+ccomp(was-15, interacted-21)
+case(objects-23, with-22)
+obl:with(interacted-21, objects-23)
+cc(people-26, and-24)
+advmod(people-26, not-25)
+ccomp(was-15, people-26)
+conj:and(interacted-21, people-26)
+punct(Growing-1, .-27)
+
+Extracted the following NER entity mentions:
+Cynthia Breazeal	PERSON	PERSON:0.9949532386708292
+
+Sentence #18 (43 tokens):
+In addition to this, Breazeal found that if we give robots the ability to perform non-verbal cues, such as those that humans inherently do every day, then humans will treat and see robots more like companions and like humans.
+
+Tokens:
+[Text=In CharacterOffsetBegin=2219 CharacterOffsetEnd=2221 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=addition CharacterOffsetBegin=2222 CharacterOffsetEnd=2230 PartOfSpeech=NN Lemma=addition NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=2231 CharacterOffsetEnd=2233 PartOfSpeech=IN Lemma=to NamedEntityTag=O]
+[Text=this CharacterOffsetBegin=2234 CharacterOffsetEnd=2238 PartOfSpeech=DT Lemma=this NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=2238 CharacterOffsetEnd=2239 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=Breazeal CharacterOffsetBegin=2240 CharacterOffsetEnd=2248 PartOfSpeech=NNP Lemma=Breazeal NamedEntityTag=PERSON]
+[Text=found CharacterOffsetBegin=2249 CharacterOffsetEnd=2254 PartOfSpeech=VBD Lemma=find NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=2255 CharacterOffsetEnd=2259 PartOfSpeech=IN Lemma=that NamedEntityTag=O]
+[Text=if CharacterOffsetBegin=2260 CharacterOffsetEnd=2262 PartOfSpeech=IN Lemma=if NamedEntityTag=O]
+[Text=we CharacterOffsetBegin=2263 CharacterOffsetEnd=2265 PartOfSpeech=PRP Lemma=we NamedEntityTag=O]
+[Text=give CharacterOffsetBegin=2266 CharacterOffsetEnd=2270 PartOfSpeech=VBP Lemma=give NamedEntityTag=O]
+[Text=robots CharacterOffsetBegin=2271 CharacterOffsetEnd=2277 PartOfSpeech=NNS Lemma=robot NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=2278 CharacterOffsetEnd=2281 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=ability CharacterOffsetBegin=2282 CharacterOffsetEnd=2289 PartOfSpeech=NN Lemma=ability NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=2290 CharacterOffsetEnd=2292 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=perform CharacterOffsetBegin=2293 CharacterOffsetEnd=2300 PartOfSpeech=VB Lemma=perform NamedEntityTag=O]
+[Text=non-verbal CharacterOffsetBegin=2301 CharacterOffsetEnd=2311 PartOfSpeech=JJ Lemma=non-verbal NamedEntityTag=O]
+[Text=cues CharacterOffsetBegin=2312 CharacterOffsetEnd=2316 PartOfSpeech=NNS Lemma=cue NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=2316 CharacterOffsetEnd=2317 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=such CharacterOffsetBegin=2318 CharacterOffsetEnd=2322 PartOfSpeech=JJ Lemma=such NamedEntityTag=O]
+[Text=as CharacterOffsetBegin=2323 CharacterOffsetEnd=2325 PartOfSpeech=IN Lemma=as NamedEntityTag=O]
+[Text=those CharacterOffsetBegin=2326 CharacterOffsetEnd=2331 PartOfSpeech=DT Lemma=that NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=2332 CharacterOffsetEnd=2336 PartOfSpeech=WDT Lemma=that NamedEntityTag=O]
+[Text=humans CharacterOffsetBegin=2337 CharacterOffsetEnd=2343 PartOfSpeech=NNS Lemma=human NamedEntityTag=O]
+[Text=inherently CharacterOffsetBegin=2344 CharacterOffsetEnd=2354 PartOfSpeech=RB Lemma=inherently NamedEntityTag=O]
+[Text=do CharacterOffsetBegin=2355 CharacterOffsetEnd=2357 PartOfSpeech=VBP Lemma=do NamedEntityTag=O]
+[Text=every CharacterOffsetBegin=2358 CharacterOffsetEnd=2363 PartOfSpeech=DT Lemma=every NamedEntityTag=SET Timex=<TIMEX3 periodicity="P1D" quant="every" tid="t9" type="SET" value="P1D">every day</TIMEX3>]
+[Text=day CharacterOffsetBegin=2364 CharacterOffsetEnd=2367 PartOfSpeech=NN Lemma=day NamedEntityTag=SET Timex=<TIMEX3 periodicity="P1D" quant="every" tid="t9" type="SET" value="P1D">every day</TIMEX3>]
+[Text=, CharacterOffsetBegin=2367 CharacterOffsetEnd=2368 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=then CharacterOffsetBegin=2369 CharacterOffsetEnd=2373 PartOfSpeech=RB Lemma=then NamedEntityTag=O]
+[Text=humans CharacterOffsetBegin=2374 CharacterOffsetEnd=2380 PartOfSpeech=NNS Lemma=human NamedEntityTag=O]
+[Text=will CharacterOffsetBegin=2381 CharacterOffsetEnd=2385 PartOfSpeech=MD Lemma=will NamedEntityTag=O]
+[Text=treat CharacterOffsetBegin=2386 CharacterOffsetEnd=2391 PartOfSpeech=VB Lemma=treat NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=2392 CharacterOffsetEnd=2395 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=see CharacterOffsetBegin=2396 CharacterOffsetEnd=2399 PartOfSpeech=VB Lemma=see NamedEntityTag=O]
+[Text=robots CharacterOffsetBegin=2400 CharacterOffsetEnd=2406 PartOfSpeech=NNS Lemma=robot NamedEntityTag=O]
+[Text=more CharacterOffsetBegin=2407 CharacterOffsetEnd=2411 PartOfSpeech=RBR Lemma=more NamedEntityTag=O]
+[Text=like CharacterOffsetBegin=2412 CharacterOffsetEnd=2416 PartOfSpeech=IN Lemma=like NamedEntityTag=O]
+[Text=companions CharacterOffsetBegin=2417 CharacterOffsetEnd=2427 PartOfSpeech=NNS Lemma=companion NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=2428 CharacterOffsetEnd=2431 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=like CharacterOffsetBegin=2432 CharacterOffsetEnd=2436 PartOfSpeech=IN Lemma=like NamedEntityTag=O]
+[Text=humans CharacterOffsetBegin=2437 CharacterOffsetEnd=2443 PartOfSpeech=NNS Lemma=human NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=2443 CharacterOffsetEnd=2444 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+
+Constituency parse: 
+(ROOT
+  (S
+    (PP (IN In)
+      (NP
+        (NP (NN addition))
+        (PP (IN to)
+          (NP (DT this)))))
+    (, ,)
+    (NP (NNP Breazeal))
+    (VP (VBD found)
+      (SBAR (IN that)
+        (S
+          (SBAR (IN if)
+            (S
+              (NP (PRP we))
+              (VP (VBP give)
+                (NP (NNS robots))
+                (NP (DT the) (NN ability)
+                  (S
+                    (VP (TO to)
+                      (VP (VB perform)
+                        (NP
+                          (NP (JJ non-verbal) (NNS cues))
+                          (, ,)
+                          (PP (JJ such) (IN as)
+                            (NP
+                              (NP (DT those))
+                              (SBAR
+                                (WHNP (WDT that))
+                                (S
+                                  (NP (NNS humans))
+                                  (ADVP (RB inherently))
+                                  (VP (VBP do)
+                                    (NP (DT every) (NN day)))))))))))))))
+          (, ,)
+          (ADVP (RB then))
+          (NP (NNS humans))
+          (VP (MD will)
+            (VP (VB treat)
+              (CC and)
+              (VB see)
+              (PP
+                (PP
+                  (ADVP
+                    (NP (NNS robots))
+                    (RBR more))
+                  (IN like)
+                  (NP (NNS companions)))
+                (CC and)
+                (PP (IN like)
+                  (NP (NNS humans)))))))))
+    (. .)))
+
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, found-7)
+case(this-4, In-1)
+fixed(In-1, addition-2)
+fixed(In-1, to-3)
+obl:in_addition_to(found-7, this-4)
+punct(found-7, ,-5)
+nsubj(found-7, Breazeal-6)
+mark(treat-33, that-8)
+mark(give-11, if-9)
+nsubj(give-11, we-10)
+advcl:if(treat-33, give-11)
+iobj(give-11, robots-12)
+det(ability-14, the-13)
+obj(give-11, ability-14)
+mark(perform-16, to-15)
+acl:to(ability-14, perform-16)
+amod(cues-18, non-verbal-17)
+obj(perform-16, cues-18)
+punct(cues-18, ,-19)
+case(those-22, such-20)
+fixed(such-20, as-21)
+nmod:such_as(cues-18, those-22)
+obj(do-26, those-22)
+ref(those-22, that-23)
+nsubj(do-26, humans-24)
+advmod(do-26, inherently-25)
+acl:relcl(those-22, do-26)
+det(day-28, every-27)
+obl:tmod(do-26, day-28)
+punct(treat-33, ,-29)
+advmod(humans-31, then-30)
+nsubj(treat-33, humans-31)
+nsubj(treat-33', humans-31)
+nsubj(see-35, humans-31)
+aux(treat-33, will-32)
+ccomp(found-7, treat-33)
+ccomp(found-7, treat-33')
+conj:and(treat-33, treat-33')
+cc(see-35, and-34)
+ccomp(found-7, see-35)
+conj:and(treat-33, see-35)
+obl:npmod(more-37, robots-36)
+advmod(companions-39, more-37)
+case(companions-39, like-38)
+obl:like(treat-33, companions-39)
+cc(treat-33', and-40)
+case(humans-42, like-41)
+obl:like(treat-33', humans-42)
+punct(found-7, .-43)
+
+Extracted the following NER entity mentions:
+Breazeal	PERSON	PERSON:0.9840401420614356
+every day	SET	SET:-1.0
+
+Sentence #19 (29 tokens):
+Cynthia Breazeal also explores the idea of using robots to build better connections between humans, such as humans who live a long distance away from each other.
+
+Tokens:
+[Text=Cynthia CharacterOffsetBegin=2445 CharacterOffsetEnd=2452 PartOfSpeech=NNP Lemma=Cynthia NamedEntityTag=PERSON]
+[Text=Breazeal CharacterOffsetBegin=2453 CharacterOffsetEnd=2461 PartOfSpeech=NNP Lemma=Breazeal NamedEntityTag=PERSON]
+[Text=also CharacterOffsetBegin=2462 CharacterOffsetEnd=2466 PartOfSpeech=RB Lemma=also NamedEntityTag=O]
+[Text=explores CharacterOffsetBegin=2467 CharacterOffsetEnd=2475 PartOfSpeech=VBZ Lemma=explore NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=2476 CharacterOffsetEnd=2479 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=idea CharacterOffsetBegin=2480 CharacterOffsetEnd=2484 PartOfSpeech=NN Lemma=idea NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=2485 CharacterOffsetEnd=2487 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=using CharacterOffsetBegin=2488 CharacterOffsetEnd=2493 PartOfSpeech=VBG Lemma=use NamedEntityTag=O]
+[Text=robots CharacterOffsetBegin=2494 CharacterOffsetEnd=2500 PartOfSpeech=NNS Lemma=robot NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=2501 CharacterOffsetEnd=2503 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=build CharacterOffsetBegin=2504 CharacterOffsetEnd=2509 PartOfSpeech=VB Lemma=build NamedEntityTag=O]
+[Text=better CharacterOffsetBegin=2510 CharacterOffsetEnd=2516 PartOfSpeech=JJR Lemma=good NamedEntityTag=O]
+[Text=connections CharacterOffsetBegin=2517 CharacterOffsetEnd=2528 PartOfSpeech=NNS Lemma=connection NamedEntityTag=O]
+[Text=between CharacterOffsetBegin=2529 CharacterOffsetEnd=2536 PartOfSpeech=IN Lemma=between NamedEntityTag=O]
+[Text=humans CharacterOffsetBegin=2537 CharacterOffsetEnd=2543 PartOfSpeech=NNS Lemma=human NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=2543 CharacterOffsetEnd=2544 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=such CharacterOffsetBegin=2545 CharacterOffsetEnd=2549 PartOfSpeech=JJ Lemma=such NamedEntityTag=O]
+[Text=as CharacterOffsetBegin=2550 CharacterOffsetEnd=2552 PartOfSpeech=IN Lemma=as NamedEntityTag=O]
+[Text=humans CharacterOffsetBegin=2553 CharacterOffsetEnd=2559 PartOfSpeech=NNS Lemma=human NamedEntityTag=O]
+[Text=who CharacterOffsetBegin=2560 CharacterOffsetEnd=2563 PartOfSpeech=WP Lemma=who NamedEntityTag=O]
+[Text=live CharacterOffsetBegin=2564 CharacterOffsetEnd=2568 PartOfSpeech=VBP Lemma=live NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=2569 CharacterOffsetEnd=2570 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=long CharacterOffsetBegin=2571 CharacterOffsetEnd=2575 PartOfSpeech=JJ Lemma=long NamedEntityTag=O]
+[Text=distance CharacterOffsetBegin=2576 CharacterOffsetEnd=2584 PartOfSpeech=NN Lemma=distance NamedEntityTag=O]
+[Text=away CharacterOffsetBegin=2585 CharacterOffsetEnd=2589 PartOfSpeech=RB Lemma=away NamedEntityTag=O]
+[Text=from CharacterOffsetBegin=2590 CharacterOffsetEnd=2594 PartOfSpeech=IN Lemma=from NamedEntityTag=O]
+[Text=each CharacterOffsetBegin=2595 CharacterOffsetEnd=2599 PartOfSpeech=DT Lemma=each NamedEntityTag=O]
+[Text=other CharacterOffsetBegin=2600 CharacterOffsetEnd=2605 PartOfSpeech=JJ Lemma=other NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=2605 CharacterOffsetEnd=2606 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+
+Constituency parse: 
+(ROOT
+  (S
+    (NP (NNP Cynthia) (NNP Breazeal))
+    (ADVP (RB also))
+    (VP (VBZ explores)
+      (NP
+        (NP (DT the) (NN idea))
+        (PP (IN of)
+          (S
+            (VP (VBG using)
+              (NP (NNS robots))
+              (S
+                (VP (TO to)
+                  (VP (VB build)
+                    (NP
+                      (NP (JJR better) (NNS connections))
+                      (PP (IN between)
+                        (NP (NNS humans)))
+                      (, ,)
+                      (PP (JJ such) (IN as)
+                        (NP
+                          (NP (NNS humans))
+                          (SBAR
+                            (WHNP (WP who))
+                            (S
+                              (VP (VBP live)
+                                (NP (DT a) (JJ long) (NN distance))
+                                (ADVP (RB away)
+                                  (PP (IN from)
+                                    (NP (DT each) (JJ other))))))))))))))))))
+    (. .)))
+
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, explores-4)
+compound(Breazeal-2, Cynthia-1)
+nsubj(explores-4, Breazeal-2)
+advmod(explores-4, also-3)
+det(idea-6, the-5)
+obj(explores-4, idea-6)
+mark(using-8, of-7)
+acl:of(idea-6, using-8)
+obj(using-8, robots-9)
+mark(build-11, to-10)
+advcl:to(using-8, build-11)
+amod(connections-13, better-12)
+obj(build-11, connections-13)
+case(humans-15, between-14)
+nmod:between(connections-13, humans-15)
+punct(connections-13, ,-16)
+case(humans-19, such-17)
+fixed(such-17, as-18)
+nmod:such_as(connections-13, humans-19)
+nsubj(live-21, humans-19)
+ref(humans-19, who-20)
+acl:relcl(humans-19, live-21)
+det(distance-24, a-22)
+amod(distance-24, long-23)
+obj(live-21, distance-24)
+case(other-28, away-25)
+fixed(away-25, from-26)
+det(other-28, each-27)
+obl:away_from(live-21, other-28)
+punct(explores-4, .-29)
+
+Extracted the following NER entity mentions:
+Cynthia Breazeal	PERSON	PERSON:0.9810639706796782
+
+Sentence #20 (26 tokens):
+Breazeal is also the associate director for the Bridge: MIT Quest for Intelligence, where Cynthia Breazeal works on implementing AI through grade school.
+
+Tokens:
+[Text=Breazeal CharacterOffsetBegin=2608 CharacterOffsetEnd=2616 PartOfSpeech=NNP Lemma=Breazeal NamedEntityTag=PERSON]
+[Text=is CharacterOffsetBegin=2617 CharacterOffsetEnd=2619 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=also CharacterOffsetBegin=2620 CharacterOffsetEnd=2624 PartOfSpeech=RB Lemma=also NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=2625 CharacterOffsetEnd=2628 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=associate CharacterOffsetBegin=2629 CharacterOffsetEnd=2638 PartOfSpeech=JJ Lemma=associate NamedEntityTag=O]
+[Text=director CharacterOffsetBegin=2639 CharacterOffsetEnd=2647 PartOfSpeech=NN Lemma=director NamedEntityTag=TITLE]
+[Text=for CharacterOffsetBegin=2648 CharacterOffsetEnd=2651 PartOfSpeech=IN Lemma=for NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=2652 CharacterOffsetEnd=2655 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Bridge CharacterOffsetBegin=2656 CharacterOffsetEnd=2662 PartOfSpeech=NNP Lemma=Bridge NamedEntityTag=O]
+[Text=: CharacterOffsetBegin=2662 CharacterOffsetEnd=2663 PartOfSpeech=: Lemma=: NamedEntityTag=O]
+[Text=MIT CharacterOffsetBegin=2664 CharacterOffsetEnd=2667 PartOfSpeech=NNP Lemma=MIT NamedEntityTag=ORGANIZATION]
+[Text=Quest CharacterOffsetBegin=2668 CharacterOffsetEnd=2673 PartOfSpeech=NNP Lemma=Quest NamedEntityTag=ORGANIZATION]
+[Text=for CharacterOffsetBegin=2674 CharacterOffsetEnd=2677 PartOfSpeech=IN Lemma=for NamedEntityTag=ORGANIZATION]
+[Text=Intelligence CharacterOffsetBegin=2678 CharacterOffsetEnd=2690 PartOfSpeech=NNP Lemma=Intelligence NamedEntityTag=ORGANIZATION]
+[Text=, CharacterOffsetBegin=2690 CharacterOffsetEnd=2691 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=where CharacterOffsetBegin=2692 CharacterOffsetEnd=2697 PartOfSpeech=WRB Lemma=where NamedEntityTag=O]
+[Text=Cynthia CharacterOffsetBegin=2698 CharacterOffsetEnd=2705 PartOfSpeech=NNP Lemma=Cynthia NamedEntityTag=PERSON]
+[Text=Breazeal CharacterOffsetBegin=2706 CharacterOffsetEnd=2714 PartOfSpeech=NNP Lemma=Breazeal NamedEntityTag=PERSON]
+[Text=works CharacterOffsetBegin=2715 CharacterOffsetEnd=2720 PartOfSpeech=VBZ Lemma=work NamedEntityTag=O]
+[Text=on CharacterOffsetBegin=2721 CharacterOffsetEnd=2723 PartOfSpeech=IN Lemma=on NamedEntityTag=O]
+[Text=implementing CharacterOffsetBegin=2724 CharacterOffsetEnd=2736 PartOfSpeech=VBG Lemma=implement NamedEntityTag=O]
+[Text=AI CharacterOffsetBegin=2737 CharacterOffsetEnd=2739 PartOfSpeech=NN Lemma=ai NamedEntityTag=O]
+[Text=through CharacterOffsetBegin=2740 CharacterOffsetEnd=2747 PartOfSpeech=IN Lemma=through NamedEntityTag=O]
+[Text=grade CharacterOffsetBegin=2748 CharacterOffsetEnd=2753 PartOfSpeech=NN Lemma=grade NamedEntityTag=O]
+[Text=school CharacterOffsetBegin=2754 CharacterOffsetEnd=2760 PartOfSpeech=NN Lemma=school NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=2760 CharacterOffsetEnd=2761 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+
+Constituency parse: 
+(ROOT
+  (S
+    (NP (NNP Breazeal))
+    (VP (VBZ is)
+      (ADVP (RB also))
+      (NP
+        (NP
+          (NP (DT the) (JJ associate) (NN director))
+          (PP (IN for)
+            (NP (DT the) (NNP Bridge))))
+        (: :)
+        (NP
+          (NP (NNP MIT) (NNP Quest))
+          (PP (IN for)
+            (NP (NNP Intelligence)))))
+      (, ,)
+      (SBAR
+        (WHADVP (WRB where))
+        (S
+          (NP (NNP Cynthia) (NNP Breazeal))
+          (VP (VBZ works)
+            (PP (IN on)
+              (S
+                (VP (VBG implementing)
+                  (NP (NN AI))
+                  (PP (IN through)
+                    (NP (NN grade) (NN school))))))))))
+    (. .)))
+
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, director-6)
+nsubj(director-6, Breazeal-1)
+cop(director-6, is-2)
+advmod(director-6, also-3)
+det(director-6, the-4)
+amod(director-6, associate-5)
+case(Bridge-9, for-7)
+det(Bridge-9, the-8)
+nmod:for(director-6, Bridge-9)
+punct(director-6, :-10)
+compound(Quest-12, MIT-11)
+dep(director-6, Quest-12)
+case(Intelligence-14, for-13)
+nmod:for(Quest-12, Intelligence-14)
+punct(director-6, ,-15)
+advmod(works-19, where-16)
+compound(Breazeal-18, Cynthia-17)
+nsubj(works-19, Breazeal-18)
+advcl(director-6, works-19)
+mark(implementing-21, on-20)
+advcl:on(works-19, implementing-21)
+obj(implementing-21, AI-22)
+case(school-25, through-23)
+compound(school-25, grade-24)
+obl:through(implementing-21, school-25)
+punct(director-6, .-26)
+
+Extracted the following NER entity mentions:
+Breazeal	PERSON	PERSON:0.9714063022773611
+director	TITLE	-
+MIT Quest for Intelligence	ORGANIZATION	ORGANIZATION:0.9512956415551305
+Cynthia Breazeal	PERSON	PERSON:0.9929650543031208
+
+Extracted the following KBP triples:
+1.0	Cynthia Breazeal	per:title	director
+0.7552521277014858	Cynthia Breazeal	per:employee_or_member_of	MIT Quest for Intelligence
+
+Sentence #21 (27 tokens):
+Breazeal has centered her work around the concept of "living with AI" which studies the impact of incorporating social robots into our everyday lives.
+
+Tokens:
+[Text=Breazeal CharacterOffsetBegin=2763 CharacterOffsetEnd=2771 PartOfSpeech=NNP Lemma=Breazeal NamedEntityTag=PERSON]
+[Text=has CharacterOffsetBegin=2772 CharacterOffsetEnd=2775 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O]
+[Text=centered CharacterOffsetBegin=2776 CharacterOffsetEnd=2784 PartOfSpeech=VBN Lemma=center NamedEntityTag=O]
+[Text=her CharacterOffsetBegin=2785 CharacterOffsetEnd=2788 PartOfSpeech=PRP$ Lemma=she NamedEntityTag=O]
+[Text=work CharacterOffsetBegin=2789 CharacterOffsetEnd=2793 PartOfSpeech=NN Lemma=work NamedEntityTag=O]
+[Text=around CharacterOffsetBegin=2794 CharacterOffsetEnd=2800 PartOfSpeech=IN Lemma=around NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=2801 CharacterOffsetEnd=2804 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=concept CharacterOffsetBegin=2805 CharacterOffsetEnd=2812 PartOfSpeech=NN Lemma=concept NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=2813 CharacterOffsetEnd=2815 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=" CharacterOffsetBegin=2816 CharacterOffsetEnd=2817 PartOfSpeech=`` Lemma=" NamedEntityTag=O]
+[Text=living CharacterOffsetBegin=2817 CharacterOffsetEnd=2823 PartOfSpeech=VBG Lemma=live NamedEntityTag=O]
+[Text=with CharacterOffsetBegin=2824 CharacterOffsetEnd=2828 PartOfSpeech=IN Lemma=with NamedEntityTag=O]
+[Text=AI CharacterOffsetBegin=2829 CharacterOffsetEnd=2831 PartOfSpeech=NN Lemma=ai NamedEntityTag=MISC]
+[Text=" CharacterOffsetBegin=2831 CharacterOffsetEnd=2832 PartOfSpeech='' Lemma=" NamedEntityTag=O]
+[Text=which CharacterOffsetBegin=2833 CharacterOffsetEnd=2838 PartOfSpeech=WDT Lemma=which NamedEntityTag=O]
+[Text=studies CharacterOffsetBegin=2839 CharacterOffsetEnd=2846 PartOfSpeech=VBZ Lemma=study NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=2847 CharacterOffsetEnd=2850 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=impact CharacterOffsetBegin=2851 CharacterOffsetEnd=2857 PartOfSpeech=NN Lemma=impact NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=2858 CharacterOffsetEnd=2860 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=incorporating CharacterOffsetBegin=2861 CharacterOffsetEnd=2874 PartOfSpeech=VBG Lemma=incorporate NamedEntityTag=O]
+[Text=social CharacterOffsetBegin=2875 CharacterOffsetEnd=2881 PartOfSpeech=JJ Lemma=social NamedEntityTag=O]
+[Text=robots CharacterOffsetBegin=2882 CharacterOffsetEnd=2888 PartOfSpeech=NNS Lemma=robot NamedEntityTag=O]
+[Text=into CharacterOffsetBegin=2889 CharacterOffsetEnd=2893 PartOfSpeech=IN Lemma=into NamedEntityTag=O]
+[Text=our CharacterOffsetBegin=2894 CharacterOffsetEnd=2897 PartOfSpeech=PRP$ Lemma=we NamedEntityTag=O]
+[Text=everyday CharacterOffsetBegin=2898 CharacterOffsetEnd=2906 PartOfSpeech=JJ Lemma=everyday NamedEntityTag=O]
+[Text=lives CharacterOffsetBegin=2907 CharacterOffsetEnd=2912 PartOfSpeech=NNS Lemma=life NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=2912 CharacterOffsetEnd=2913 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+
+Constituency parse: 
+(ROOT
+  (S
+    (NP (NNP Breazeal))
+    (VP (VBZ has)
+      (VP (VBN centered)
+        (NP (PRP$ her) (NN work))
+        (PP (IN around)
+          (NP
+            (NP
+              (NP (DT the) (NN concept))
+              (PP (IN of) (`` ")
+                (S
+                  (VP (VBG living)
+                    (PP (IN with)
+                      (NP (NN AI)))))
+                ('' ")))
+            (SBAR
+              (WHNP (WDT which))
+              (S
+                (VP (VBZ studies)
+                  (NP
+                    (NP (DT the) (NN impact))
+                    (PP (IN of)
+                      (S
+                        (VP (VBG incorporating)
+                          (NP (JJ social) (NNS robots))
+                          (PP (IN into)
+                            (NP (PRP$ our) (JJ everyday) (NNS lives))))))))))))))
+    (. .)))
+
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, centered-3)
+nsubj(centered-3, Breazeal-1)
+aux(centered-3, has-2)
+nmod:poss(work-5, her-4)
+obj(centered-3, work-5)
+case(concept-8, around-6)
+det(concept-8, the-7)
+obl:around(centered-3, concept-8)
+nsubj(studies-16, concept-8)
+case(living-11, of-9)
+punct(living-11, "-10)
+acl:of(concept-8, living-11)
+case(AI-13, with-12)
+obl:with(living-11, AI-13)
+punct(living-11, "-14)
+ref(concept-8, which-15)
+acl:relcl(concept-8, studies-16)
+det(impact-18, the-17)
+obj(studies-16, impact-18)
+mark(incorporating-20, of-19)
+acl:of(impact-18, incorporating-20)
+amod(robots-22, social-21)
+obj(incorporating-20, robots-22)
+case(lives-26, into-23)
+nmod:poss(lives-26, our-24)
+amod(lives-26, everyday-25)
+obl:into(incorporating-20, lives-26)
+punct(centered-3, .-27)
+
+Extracted the following NER entity mentions:
+Breazeal	PERSON	PERSON:0.9924906445444063
+AI	MISC	MISC:0.872552612874029
+her	PERSON	-
+
+Sentence #22 (26 tokens):
+The purpose of adding sentiment to AI is offering support to people, and creating companionship and support in places where there may be none.
+
+Tokens:
+[Text=The CharacterOffsetBegin=2914 CharacterOffsetEnd=2917 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=purpose CharacterOffsetBegin=2918 CharacterOffsetEnd=2925 PartOfSpeech=NN Lemma=purpose NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=2926 CharacterOffsetEnd=2928 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=adding CharacterOffsetBegin=2929 CharacterOffsetEnd=2935 PartOfSpeech=VBG Lemma=add NamedEntityTag=O]
+[Text=sentiment CharacterOffsetBegin=2936 CharacterOffsetEnd=2945 PartOfSpeech=NN Lemma=sentiment NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=2946 CharacterOffsetEnd=2948 PartOfSpeech=IN Lemma=to NamedEntityTag=O]
+[Text=AI CharacterOffsetBegin=2949 CharacterOffsetEnd=2951 PartOfSpeech=NN Lemma=ai NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=2952 CharacterOffsetEnd=2954 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=offering CharacterOffsetBegin=2955 CharacterOffsetEnd=2963 PartOfSpeech=VBG Lemma=offer NamedEntityTag=O]
+[Text=support CharacterOffsetBegin=2964 CharacterOffsetEnd=2971 PartOfSpeech=NN Lemma=support NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=2972 CharacterOffsetEnd=2974 PartOfSpeech=IN Lemma=to NamedEntityTag=O]
+[Text=people CharacterOffsetBegin=2975 CharacterOffsetEnd=2981 PartOfSpeech=NNS Lemma=person NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=2981 CharacterOffsetEnd=2982 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=2983 CharacterOffsetEnd=2986 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=creating CharacterOffsetBegin=2987 CharacterOffsetEnd=2995 PartOfSpeech=VBG Lemma=create NamedEntityTag=O]
+[Text=companionship CharacterOffsetBegin=2996 CharacterOffsetEnd=3009 PartOfSpeech=NN Lemma=companionship NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=3010 CharacterOffsetEnd=3013 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=support CharacterOffsetBegin=3014 CharacterOffsetEnd=3021 PartOfSpeech=NN Lemma=support NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=3022 CharacterOffsetEnd=3024 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=places CharacterOffsetBegin=3025 CharacterOffsetEnd=3031 PartOfSpeech=NNS Lemma=place NamedEntityTag=O]
+[Text=where CharacterOffsetBegin=3032 CharacterOffsetEnd=3037 PartOfSpeech=WRB Lemma=where NamedEntityTag=O]
+[Text=there CharacterOffsetBegin=3038 CharacterOffsetEnd=3043 PartOfSpeech=EX Lemma=there NamedEntityTag=O]
+[Text=may CharacterOffsetBegin=3044 CharacterOffsetEnd=3047 PartOfSpeech=MD Lemma=may NamedEntityTag=O]
+[Text=be CharacterOffsetBegin=3048 CharacterOffsetEnd=3050 PartOfSpeech=VB Lemma=be NamedEntityTag=O]
+[Text=none CharacterOffsetBegin=3051 CharacterOffsetEnd=3055 PartOfSpeech=NN Lemma=none NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=3055 CharacterOffsetEnd=3056 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+
+Constituency parse: 
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NN purpose))
+      (PP (IN of)
+        (S
+          (VP (VBG adding)
+            (NP (NN sentiment))
+            (PP (IN to)
+              (NP (NN AI)))))))
+    (VP (VBZ is)
+      (VP
+        (VP (VBG offering)
+          (NP (NN support))
+          (PP (IN to)
+            (NP (NNS people))))
+        (, ,)
+        (CC and)
+        (VP (VBG creating)
+          (NP (NN companionship)
+            (CC and)
+            (NN support))
+          (PP (IN in)
+            (NP
+              (NP (NNS places))
+              (SBAR
+                (WHADVP (WRB where))
+                (S
+                  (NP (EX there))
+                  (VP (MD may)
+                    (VP (VB be)
+                      (NP (NN none)))))))))))
+    (. .)))
+
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, offering-9)
+det(purpose-2, The-1)
+nsubj(offering-9, purpose-2)
+nsubj(creating-15, purpose-2)
+mark(adding-4, of-3)
+acl:of(purpose-2, adding-4)
+obj(adding-4, sentiment-5)
+case(AI-7, to-6)
+obl:to(adding-4, AI-7)
+aux(offering-9, is-8)
+obj(offering-9, support-10)
+case(people-12, to-11)
+obl:to(offering-9, people-12)
+punct(offering-9, ,-13)
+cc(creating-15, and-14)
+conj:and(offering-9, creating-15)
+obj(creating-15, companionship-16)
+cc(support-18, and-17)
+obj(creating-15, support-18)
+conj:and(companionship-16, support-18)
+case(places-20, in-19)
+obl:in(creating-15, places-20)
+advmod(none-25, where-21)
+expl(none-25, there-22)
+aux(none-25, may-23)
+cop(none-25, be-24)
+acl:relcl(places-20, none-25)
+punct(offering-9, .-26)
+
+Extracted the following NER entity mentions:
+
+Sentence #23 (21 tokens):
+Cynthia Breazeal was named as dean for digital learning at Massachusetts Institute of Technology (MIT) in January 2022.
+
+Tokens:
+[Text=Cynthia CharacterOffsetBegin=3058 CharacterOffsetEnd=3065 PartOfSpeech=NNP Lemma=Cynthia NamedEntityTag=PERSON]
+[Text=Breazeal CharacterOffsetBegin=3066 CharacterOffsetEnd=3074 PartOfSpeech=NNP Lemma=Breazeal NamedEntityTag=PERSON]
+[Text=was CharacterOffsetBegin=3075 CharacterOffsetEnd=3078 PartOfSpeech=VBD Lemma=be NamedEntityTag=O]
+[Text=named CharacterOffsetBegin=3079 CharacterOffsetEnd=3084 PartOfSpeech=VBN Lemma=name NamedEntityTag=O]
+[Text=as CharacterOffsetBegin=3085 CharacterOffsetEnd=3087 PartOfSpeech=IN Lemma=as NamedEntityTag=O]
+[Text=dean CharacterOffsetBegin=3088 CharacterOffsetEnd=3092 PartOfSpeech=NN Lemma=dean NamedEntityTag=TITLE]
+[Text=for CharacterOffsetBegin=3093 CharacterOffsetEnd=3096 PartOfSpeech=IN Lemma=for NamedEntityTag=O]
+[Text=digital CharacterOffsetBegin=3097 CharacterOffsetEnd=3104 PartOfSpeech=JJ Lemma=digital NamedEntityTag=O]
+[Text=learning CharacterOffsetBegin=3105 CharacterOffsetEnd=3113 PartOfSpeech=NN Lemma=learning NamedEntityTag=O]
+[Text=at CharacterOffsetBegin=3114 CharacterOffsetEnd=3116 PartOfSpeech=IN Lemma=at NamedEntityTag=O]
+[Text=Massachusetts CharacterOffsetBegin=3117 CharacterOffsetEnd=3130 PartOfSpeech=NNP Lemma=Massachusetts NamedEntityTag=ORGANIZATION]
+[Text=Institute CharacterOffsetBegin=3131 CharacterOffsetEnd=3140 PartOfSpeech=NNP Lemma=Institute NamedEntityTag=ORGANIZATION]
+[Text=of CharacterOffsetBegin=3141 CharacterOffsetEnd=3143 PartOfSpeech=IN Lemma=of NamedEntityTag=ORGANIZATION]
+[Text=Technology CharacterOffsetBegin=3144 CharacterOffsetEnd=3154 PartOfSpeech=NNP Lemma=Technology NamedEntityTag=ORGANIZATION]
+[Text=( CharacterOffsetBegin=3155 CharacterOffsetEnd=3156 PartOfSpeech=-LRB- Lemma=( NamedEntityTag=O]
+[Text=MIT CharacterOffsetBegin=3156 CharacterOffsetEnd=3159 PartOfSpeech=NNP Lemma=MIT NamedEntityTag=ORGANIZATION]
+[Text=) CharacterOffsetBegin=3159 CharacterOffsetEnd=3160 PartOfSpeech=-RRB- Lemma=) NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=3161 CharacterOffsetEnd=3163 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=January CharacterOffsetBegin=3164 CharacterOffsetEnd=3171 PartOfSpeech=NNP Lemma=January NamedEntityTag=DATE NormalizedNamedEntityTag=2022-01 Timex=<TIMEX3 tid="t10" type="DATE" value="2022-01">January 2022</TIMEX3>]
+[Text=2022 CharacterOffsetBegin=3172 CharacterOffsetEnd=3176 PartOfSpeech=CD Lemma=2022 NamedEntityTag=DATE NormalizedNamedEntityTag=2022-01 Timex=<TIMEX3 tid="t10" type="DATE" value="2022-01">January 2022</TIMEX3>]
+[Text=. CharacterOffsetBegin=3176 CharacterOffsetEnd=3177 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+
+Constituency parse: 
+(ROOT
+  (S
+    (NP (NNP Cynthia) (NNP Breazeal))
+    (VP (VBD was)
+      (VP (VBN named)
+        (PP (IN as)
+          (NP
+            (NP (NN dean))
+            (PP (IN for)
+              (NP (JJ digital) (NN learning)))))
+        (PP (IN at)
+          (NP
+            (NP (NNP Massachusetts) (NNP Institute))
+            (PP (IN of)
+              (NP (NNP Technology) (-LRB- -LRB-) (NNP MIT) (-RRB- -RRB-)))))
+        (PP (IN in)
+          (NP (NNP January) (CD 2022)))))
+    (. .)))
+
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, named-4)
+compound(Breazeal-2, Cynthia-1)
+nsubj:pass(named-4, Breazeal-2)
+aux:pass(named-4, was-3)
+case(dean-6, as-5)
+obl:as(named-4, dean-6)
+case(learning-9, for-7)
+amod(learning-9, digital-8)
+nmod:for(dean-6, learning-9)
+case(Institute-12, at-10)
+compound(Institute-12, Massachusetts-11)
+obl:at(named-4, Institute-12)
+case(MIT-16, of-13)
+compound(MIT-16, Technology-14)
+punct(MIT-16, (-15)
+nmod:of(Institute-12, MIT-16)
+punct(MIT-16, )-17)
+case(January-19, in-18)
+obl:in(named-4, January-19)
+nummod(January-19, 2022-20)
+punct(named-4, .-21)
+
+Extracted the following NER entity mentions:
+Cynthia Breazeal	PERSON	PERSON:0.9924336899273782
+dean	TITLE	-
+Massachusetts Institute of Technology	ORGANIZATION	ORGANIZATION:0.9985850188604448
+MIT	ORGANIZATION	ORGANIZATION:0.8318095458000707
+January 2022	DATE	DATE:0.9477070417132732
+
+Extracted the following KBP triples:
+1.0	Massachusetts Institute of Technology	org:alternate_names	MIT
+0.891833134870445	Cynthia Breazeal	per:title	dean
+0.9786922891435774	Cynthia Breazeal	per:employee_or_member_of	MIT
+0.5387718709545213	Massachusetts Institute of Technology	org:top_members_employees	Cynthia Breazeal
+0.9451225050308222	Cynthia Breazeal	per:employee_or_member_of	Massachusetts Institute of Technology
+0.293588926969829	MIT	org:alternate_names	Massachusetts Institute of Technology
+0.9033739725712819	MIT	org:top_members_employees	Cynthia Breazeal
+
+Sentence #24 (45 tokens):
+Cynthia Breazeal will lead in aiding to grow MIT's online portfolio, libraries, bootcamps, and identifying the areas for innovation, while researching opening learning and how different methods and technologies can improve digital learning as Cynthia Breazeal is the dean.
+
+Tokens:
+[Text=Cynthia CharacterOffsetBegin=3178 CharacterOffsetEnd=3185 PartOfSpeech=NNP Lemma=Cynthia NamedEntityTag=PERSON]
+[Text=Breazeal CharacterOffsetBegin=3186 CharacterOffsetEnd=3194 PartOfSpeech=NNP Lemma=Breazeal NamedEntityTag=PERSON]
+[Text=will CharacterOffsetBegin=3195 CharacterOffsetEnd=3199 PartOfSpeech=MD Lemma=will NamedEntityTag=O]
+[Text=lead CharacterOffsetBegin=3200 CharacterOffsetEnd=3204 PartOfSpeech=VB Lemma=lead NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=3205 CharacterOffsetEnd=3207 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=aiding CharacterOffsetBegin=3208 CharacterOffsetEnd=3214 PartOfSpeech=VBG Lemma=aid NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=3215 CharacterOffsetEnd=3217 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=grow CharacterOffsetBegin=3218 CharacterOffsetEnd=3222 PartOfSpeech=VB Lemma=grow NamedEntityTag=O]
+[Text=MIT CharacterOffsetBegin=3223 CharacterOffsetEnd=3226 PartOfSpeech=NNP Lemma=MIT NamedEntityTag=ORGANIZATION]
+[Text='s CharacterOffsetBegin=3226 CharacterOffsetEnd=3228 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=online CharacterOffsetBegin=3229 CharacterOffsetEnd=3235 PartOfSpeech=JJ Lemma=online NamedEntityTag=O]
+[Text=portfolio CharacterOffsetBegin=3236 CharacterOffsetEnd=3245 PartOfSpeech=NN Lemma=portfolio NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=3245 CharacterOffsetEnd=3246 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=libraries CharacterOffsetBegin=3247 CharacterOffsetEnd=3256 PartOfSpeech=NNS Lemma=library NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=3256 CharacterOffsetEnd=3257 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=bootcamps CharacterOffsetBegin=3258 CharacterOffsetEnd=3267 PartOfSpeech=NNS Lemma=bootcamp NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=3267 CharacterOffsetEnd=3268 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=3269 CharacterOffsetEnd=3272 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=identifying CharacterOffsetBegin=3273 CharacterOffsetEnd=3284 PartOfSpeech=VBG Lemma=identify NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=3285 CharacterOffsetEnd=3288 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=areas CharacterOffsetBegin=3289 CharacterOffsetEnd=3294 PartOfSpeech=NNS Lemma=area NamedEntityTag=O]
+[Text=for CharacterOffsetBegin=3295 CharacterOffsetEnd=3298 PartOfSpeech=IN Lemma=for NamedEntityTag=O]
+[Text=innovation CharacterOffsetBegin=3299 CharacterOffsetEnd=3309 PartOfSpeech=NN Lemma=innovation NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=3309 CharacterOffsetEnd=3310 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=while CharacterOffsetBegin=3311 CharacterOffsetEnd=3316 PartOfSpeech=IN Lemma=while NamedEntityTag=O]
+[Text=researching CharacterOffsetBegin=3317 CharacterOffsetEnd=3328 PartOfSpeech=VBG Lemma=research NamedEntityTag=O]
+[Text=opening CharacterOffsetBegin=3329 CharacterOffsetEnd=3336 PartOfSpeech=NN Lemma=opening NamedEntityTag=O]
+[Text=learning CharacterOffsetBegin=3337 CharacterOffsetEnd=3345 PartOfSpeech=NN Lemma=learning NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=3346 CharacterOffsetEnd=3349 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=how CharacterOffsetBegin=3350 CharacterOffsetEnd=3353 PartOfSpeech=WRB Lemma=how NamedEntityTag=O]
+[Text=different CharacterOffsetBegin=3354 CharacterOffsetEnd=3363 PartOfSpeech=JJ Lemma=different NamedEntityTag=O]
+[Text=methods CharacterOffsetBegin=3364 CharacterOffsetEnd=3371 PartOfSpeech=NNS Lemma=method NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=3372 CharacterOffsetEnd=3375 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=technologies CharacterOffsetBegin=3376 CharacterOffsetEnd=3388 PartOfSpeech=NNS Lemma=technology NamedEntityTag=O]
+[Text=can CharacterOffsetBegin=3389 CharacterOffsetEnd=3392 PartOfSpeech=MD Lemma=can NamedEntityTag=O]
+[Text=improve CharacterOffsetBegin=3393 CharacterOffsetEnd=3400 PartOfSpeech=VB Lemma=improve NamedEntityTag=O]
+[Text=digital CharacterOffsetBegin=3401 CharacterOffsetEnd=3408 PartOfSpeech=JJ Lemma=digital NamedEntityTag=O]
+[Text=learning CharacterOffsetBegin=3409 CharacterOffsetEnd=3417 PartOfSpeech=NN Lemma=learning NamedEntityTag=O]
+[Text=as CharacterOffsetBegin=3418 CharacterOffsetEnd=3420 PartOfSpeech=IN Lemma=as NamedEntityTag=O]
+[Text=Cynthia CharacterOffsetBegin=3421 CharacterOffsetEnd=3428 PartOfSpeech=NNP Lemma=Cynthia NamedEntityTag=PERSON]
+[Text=Breazeal CharacterOffsetBegin=3429 CharacterOffsetEnd=3437 PartOfSpeech=NNP Lemma=Breazeal NamedEntityTag=PERSON]
+[Text=is CharacterOffsetBegin=3438 CharacterOffsetEnd=3440 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=3441 CharacterOffsetEnd=3444 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=dean CharacterOffsetBegin=3445 CharacterOffsetEnd=3449 PartOfSpeech=NN Lemma=dean NamedEntityTag=TITLE]
+[Text=. CharacterOffsetBegin=3449 CharacterOffsetEnd=3450 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+
+Constituency parse: 
+(ROOT
+  (S
+    (NP (NNP Cynthia) (NNP Breazeal))
+    (VP (MD will)
+      (VP (VB lead)
+        (PP (IN in)
+          (S
+            (VP
+              (VP (VBG aiding)
+                (S
+                  (VP (TO to)
+                    (VP (VB grow)
+                      (NP
+                        (NP
+                          (NP (NNP MIT) (POS 's))
+                          (JJ online) (NN portfolio))
+                        (, ,)
+                        (NP
+                          (NP (NNS libraries))
+                          (, ,)
+                          (NP (NNS bootcamps)))
+                        (, ,))))))
+              (CC and)
+              (VP (VBG identifying)
+                (NP
+                  (NP (DT the) (NNS areas))
+                  (PP (IN for)
+                    (NP (NN innovation))))))))
+        (, ,)
+        (SBAR
+          (SBAR (IN while)
+            (S
+              (VP (VBG researching)
+                (NP (NN opening) (NN learning)))))
+          (CC and)
+          (SBAR
+            (WHADVP (WRB how))
+            (S
+              (NP (JJ different) (NNS methods)
+                (CC and)
+                (NNS technologies))
+              (VP (MD can)
+                (VP (VB improve)
+                  (NP (JJ digital) (NN learning))
+                  (SBAR (IN as)
+                    (S
+                      (NP (NNP Cynthia) (NNP Breazeal))
+                      (VP (VBZ is)
+                        (NP (DT the) (NN dean))))))))))))
+    (. .)))
+
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, lead-4)
+compound(Breazeal-2, Cynthia-1)
+nsubj(lead-4, Breazeal-2)
+aux(lead-4, will-3)
+mark(aiding-6, in-5)
+advcl:in(lead-4, aiding-6)
+mark(grow-8, to-7)
+xcomp(aiding-6, grow-8)
+nmod:poss(portfolio-12, MIT-9)
+case(MIT-9, 's-10)
+amod(portfolio-12, online-11)
+obj(grow-8, portfolio-12)
+punct(portfolio-12, ,-13)
+appos(portfolio-12, libraries-14)
+punct(libraries-14, ,-15)
+appos(libraries-14, bootcamps-16)
+punct(portfolio-12, ,-17)
+cc(identifying-19, and-18)
+advcl:in(lead-4, identifying-19)
+conj:and(aiding-6, identifying-19)
+det(areas-21, the-20)
+obj(identifying-19, areas-21)
+case(innovation-23, for-22)
+nmod:for(areas-21, innovation-23)
+punct(lead-4, ,-24)
+mark(researching-26, while-25)
+advcl:while(lead-4, researching-26)
+compound(learning-28, opening-27)
+obj(researching-26, learning-28)
+cc(improve-36, and-29)
+advmod(improve-36, how-30)
+amod(methods-32, different-31)
+nsubj(improve-36, methods-32)
+cc(technologies-34, and-33)
+conj:and(methods-32, technologies-34)
+nsubj(improve-36, technologies-34)
+aux(improve-36, can-35)
+advcl:while(lead-4, improve-36)
+conj:and(researching-26, improve-36)
+amod(learning-38, digital-37)
+obj(improve-36, learning-38)
+mark(dean-44, as-39)
+compound(Breazeal-41, Cynthia-40)
+nsubj(dean-44, Breazeal-41)
+cop(dean-44, is-42)
+det(dean-44, the-43)
+advcl:as(improve-36, dean-44)
+punct(lead-4, .-45)
+
+Extracted the following NER entity mentions:
+Cynthia Breazeal	PERSON	PERSON:0.9759025776133549
+MIT	ORGANIZATION	ORGANIZATION:0.8920017213973112
+Cynthia Breazeal	PERSON	PERSON:0.996840716401961
+dean	TITLE	-
+
+Extracted the following KBP triples:
+1.0	Cynthia Breazeal	per:title	dean
+
+Coreference set:
+	(1,2,[1,3]) -> (11,9,[3,10]), that is: "Cynthia Breazeal" -> "as well as other robots Cynthia Breazeal"
+	(2,2,[1,3]) -> (11,9,[3,10]), that is: "Cynthia Breazeal" -> "as well as other robots Cynthia Breazeal"
+	(2,17,[17,18]) -> (11,9,[3,10]), that is: "she" -> "as well as other robots Cynthia Breazeal"
+	(3,4,[3,5]) -> (11,9,[3,10]), that is: "Cynthia Breazeal" -> "as well as other robots Cynthia Breazeal"
+	(4,2,[1,3]) -> (11,9,[3,10]), that is: "Cynthia Breazeal" -> "as well as other robots Cynthia Breazeal"
+	(5,2,[1,3]) -> (11,9,[3,10]), that is: "Cynthia Breazeal" -> "as well as other robots Cynthia Breazeal"
+	(5,11,[10,12]) -> (11,9,[3,10]), that is: "Cynthia Breazeal" -> "as well as other robots Cynthia Breazeal"
+	(6,6,[5,7]) -> (11,9,[3,10]), that is: "Cynthia Breazeal" -> "as well as other robots Cynthia Breazeal"
+	(6,10,[9,11]) -> (11,9,[3,10]), that is: "Cynthia Breazeal" -> "as well as other robots Cynthia Breazeal"
+	(7,2,[1,3]) -> (11,9,[3,10]), that is: "Cynthia Breazeal" -> "as well as other robots Cynthia Breazeal"
+	(8,2,[1,3]) -> (11,9,[3,10]), that is: "Cynthia Breazeal" -> "as well as other robots Cynthia Breazeal"
+	(9,2,[1,3]) -> (11,9,[3,10]), that is: "Cynthia Breazeal" -> "as well as other robots Cynthia Breazeal"
+	(9,6,[6,7]) -> (11,9,[3,10]), that is: "her" -> "as well as other robots Cynthia Breazeal"
+	(10,2,[1,3]) -> (11,9,[3,10]), that is: "Cynthia Breazeal" -> "as well as other robots Cynthia Breazeal"
+	(13,2,[1,3]) -> (11,9,[3,10]), that is: "Cynthia Breazeal" -> "as well as other robots Cynthia Breazeal"
+	(14,2,[1,3]) -> (11,9,[3,10]), that is: "Cynthia Breazeal" -> "as well as other robots Cynthia Breazeal"
+	(14,16,[15,17]) -> (11,9,[3,10]), that is: "Cynthia Breazeal" -> "as well as other robots Cynthia Breazeal"
+	(15,2,[1,3]) -> (11,9,[3,10]), that is: "Cynthia Breazeal" -> "as well as other robots Cynthia Breazeal"
+	(16,2,[1,3]) -> (11,9,[3,10]), that is: "Cynthia Breazeal" -> "as well as other robots Cynthia Breazeal"
+	(17,10,[9,11]) -> (11,9,[3,10]), that is: "Cynthia Breazeal" -> "as well as other robots Cynthia Breazeal"
+	(18,6,[6,7]) -> (11,9,[3,10]), that is: "Breazeal" -> "as well as other robots Cynthia Breazeal"
+	(19,2,[1,3]) -> (11,9,[3,10]), that is: "Cynthia Breazeal" -> "as well as other robots Cynthia Breazeal"
+	(20,1,[1,2]) -> (11,9,[3,10]), that is: "Breazeal" -> "as well as other robots Cynthia Breazeal"
+	(20,18,[17,19]) -> (11,9,[3,10]), that is: "Cynthia Breazeal" -> "as well as other robots Cynthia Breazeal"
+	(21,1,[1,2]) -> (11,9,[3,10]), that is: "Breazeal" -> "as well as other robots Cynthia Breazeal"
+	(21,4,[4,5]) -> (11,9,[3,10]), that is: "her" -> "as well as other robots Cynthia Breazeal"
+	(23,2,[1,3]) -> (11,9,[3,10]), that is: "Cynthia Breazeal" -> "as well as other robots Cynthia Breazeal"
+	(24,2,[1,3]) -> (11,9,[3,10]), that is: "Cynthia Breazeal" -> "as well as other robots Cynthia Breazeal"
+	(24,41,[40,42]) -> (11,9,[3,10]), that is: "Cynthia Breazeal" -> "as well as other robots Cynthia Breazeal"
+
+Coreference set:
+	(14,31,[29,32]) -> (3,26,[24,27]), that is: "the Media Lab" -> "the Media Lab"
+
+Coreference set:
+	(21,24,[24,25]) -> (18,10,[10,11]), that is: "our" -> "we"
+
+Coreference set:
+	(3,14,[14,15]) -> (24,9,[9,11]), that is: "MIT" -> "MIT 's"
+	(8,16,[16,17]) -> (24,9,[9,11]), that is: "MIT" -> "MIT 's"
+	(14,12,[12,13]) -> (24,9,[9,11]), that is: "MIT" -> "MIT 's"
+	(23,16,[16,17]) -> (24,9,[9,11]), that is: "MIT" -> "MIT 's"
+
+Coreference set:
+	(4,19,[19,20]) -> (21,13,[13,14]), that is: "AI" -> "AI"
+	(22,7,[7,8]) -> (21,13,[13,14]), that is: "AI" -> "AI"

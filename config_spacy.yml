@@ -1,0 +1,21 @@
+language: en
+assistant_id: book_flight_bot
+pipeline:
+  - name: SpacyNLP
+    model: "en_core_web_md"
+  - name: SpacyTokenizer
+  - name: SpacyEntityExtractor
+    dimensions: ["PERSON", "GPE"]
+  - name: SpacyFeaturizer
+    pooling: mean
+  - name: CountVectorsFeaturizer
+    analyzer: char_wb
+    min_ngram: 1
+    max_ngram: 2
+  - name: DIETClassifier
+    epochs: 100
+    
+policies:
+  - name: MemoizationPolicy
+  - name: KerasPolicy
+  - name: MappingPolicy

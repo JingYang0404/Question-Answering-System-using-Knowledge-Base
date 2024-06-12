@@ -1,0 +1,29 @@
+version: "3.1"
+nlu:
+  - intent: award
+    examples: |
+      - When is Cynthia Breazeal's first award
+      - What award did Cynthia Breazeal get?
+      - What did Cynthia Breazeal win
+      - What award is that?
+
+
+  - intent: study
+    examples: |
+      - Where did Cynthia Breazeal finish her study at?
+      - What did Cynthia Breazeal study?
+      - Where did Cynthia Breazeal learn this at?
+
+  - intent: career
+    examples: |
+      - Where did Cynthia Breazeal work at
+      - What is yCynthia Breazeal career
+      - What work did Cynthia Breazeal do
+      - What is Cynthia Breazeal's profession
+      - How long did Cynthia Breazeal work
+
+  - intent: invention
+    examples: |
+      - What did Cynthia Breazeal invent
+      - What is Cynthia Breazeal's invention
+      - Did Cynthia Breazeal make anything?

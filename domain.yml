@@ -1,0 +1,28 @@
+version: "3.1"
+
+intents:
+  - award
+  - study
+  - career
+  - invention
+
+responses:
+  utter_award:
+    - text: "Cynthia Breazeal won the Gilbreth Lectures Award."
+
+  utter_study:
+    - text: "Cynthia Breazeal studied at University of Barbara, California."
+
+  utter_career:
+    - text: "Oh, Cynthia Breazeal work as a scientists amd professor."
+
+  utter_invention:
+    - text: "Cynthia Breazeal invented Learnado and Jibo."
+
+
+
+actions:
+  - utter_award
+  - utter_study
+  - utter_career
+  - utter_invention
